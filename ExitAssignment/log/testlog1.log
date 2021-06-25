@@ -1,0 +1,155 @@
+2021-06-22 21:09:22,605 [main] INFO tests.BaseTest - ----------------------------------------------------------------------
+2021-06-22 21:13:17,974 [main] INFO tests.BaseTest - ----------------------------------------------------------------------
+2021-06-25 11:55:49,570 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 11:55:55,526 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 11:55:57,873 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 11:55:59,158 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 11:56:32,439 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 11:56:38,568 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 11:56:40,860 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 11:56:42,119 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 12:02:43,600 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 12:02:50,517 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 12:02:52,828 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 12:02:54,120 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 12:03:52,289 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 12:03:58,432 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 12:04:00,743 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 12:04:02,052 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 14:14:55,063 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 14:15:00,693 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 14:15:03,991 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 14:15:06,309 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 14:26:03,303 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 14:26:09,075 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 14:26:12,042 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 14:26:14,301 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 14:29:17,989 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 14:29:23,451 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 14:29:26,620 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 14:29:28,694 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 14:37:51,915 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 14:37:57,339 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 14:38:00,415 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 14:38:02,359 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 14:46:59,957 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 14:47:05,538 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 14:47:08,892 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 14:47:11,173 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 14:54:25,148 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 14:54:30,805 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 14:54:33,846 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 14:54:35,863 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 14:54:44,272 [main] INFO tests.BaseTest - 28-07-2021-11:30 AM and 1-07-2021-10:15 PM was entered
+2021-06-25 14:54:45,002 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 14:56:15,831 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 14:56:21,341 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 14:56:24,612 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 14:56:26,865 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 14:56:35,243 [main] INFO tests.BaseTest - 1-07-2021-11:30 AM and 4-07-2021-10:15 PM was entered
+2021-06-25 14:56:35,836 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 14:56:37,484 [main] INFO tests.BaseTest - Proceed Button was clicked
+2021-06-25 14:56:37,556 [main] INFO tests.BaseTest - Actual Result : fill contact details
+2021-06-25 15:00:37,167 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:00:42,748 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:00:45,919 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:00:47,797 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 15:00:55,166 [main] INFO tests.BaseTest - 1-07-2021-11:30 AM and 4-07-2021-10:15 PM was entered
+2021-06-25 15:00:55,579 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 15:00:57,349 [main] INFO tests.BaseTest - Proceed Button was clicked
+2021-06-25 15:03:19,355 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:03:24,782 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:03:27,909 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:03:29,807 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 15:03:38,095 [main] INFO tests.BaseTest - 1-07-2021-11:30 AM and 4-07-2021-10:15 PM was entered
+2021-06-25 15:03:38,693 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 15:05:58,101 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:06:03,622 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:06:06,604 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:06:08,954 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 15:06:17,391 [main] INFO tests.BaseTest - 1-07-2021-11:30 AM and 4-07-2021-10:15 PM was entered
+2021-06-25 15:06:17,974 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 15:08:37,319 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:08:42,930 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:08:45,851 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:08:47,817 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 15:08:56,231 [main] INFO tests.BaseTest - 1-07-2021-11:30 AM and 4-07-2021-10:15 PM was entered
+2021-06-25 15:08:56,934 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 15:08:58,661 [main] INFO tests.BaseTest - Proceed Button was clicked
+2021-06-25 15:08:58,769 [main] INFO tests.BaseTest - Actual Result : fill contact details
+2021-06-25 15:10:08,905 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:10:14,361 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:10:17,887 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:10:20,126 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 15:10:29,489 [main] INFO tests.BaseTest - 1-07-2021-11:30 AM and 4-07-2021-10:15 PM was entered
+2021-06-25 15:10:30,142 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 15:14:04,604 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:14:10,129 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:14:13,337 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:14:15,411 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 15:14:23,771 [main] INFO tests.BaseTest - 1-07-2021-11:30 AM and 4-07-2021-10:15 PM was entered
+2021-06-25 15:14:24,397 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 15:14:25,776 [main] INFO tests.BaseTest - Proceed Button was clicked
+2021-06-25 15:14:25,886 [main] INFO tests.BaseTest - Actual Result : fill contact details
+2021-06-25 15:14:59,741 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:15:05,274 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:15:08,500 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:15:10,848 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 15:15:19,279 [main] INFO tests.BaseTest - 1-07-2021-11:30 AM and 4-07-2021-10:15 PM was entered
+2021-06-25 15:15:19,857 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 15:15:21,322 [main] INFO tests.BaseTest - Proceed Button was clicked
+2021-06-25 15:15:21,438 [main] INFO tests.BaseTest - Actual Result : fill contact details
+2021-06-25 15:29:18,322 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:29:23,943 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:29:25,938 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:30:42,427 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:30:47,941 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:30:50,094 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:30:58,688 [main] INFO tests.BaseTest - 1-07-2021-11:00 AM and 5-07-2021-10:15 PM was entered
+2021-06-25 15:30:59,284 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 15:31:00,655 [main] INFO tests.BaseTest - Proceed Button was clicked
+2021-06-25 15:31:00,703 [main] INFO tests.BaseTest - Actual Result : outstation
+2021-06-25 15:35:13,601 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:35:19,093 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:35:22,100 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:35:30,338 [main] INFO tests.BaseTest - 1-07-2021-11:00 AM and 6-07-2021-10:15 PM was entered
+2021-06-25 15:35:30,919 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 15:35:32,342 [main] INFO tests.BaseTest - Proceed Button was clicked
+2021-06-25 15:35:32,453 [main] INFO tests.BaseTest - Actual Result : outstation
+2021-06-25 15:37:32,635 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:37:38,286 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:37:41,257 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:37:43,338 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 15:40:11,234 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:40:11,779 [main] INFO tests.BaseTest - Airport Menu was selected
+2021-06-25 15:46:49,143 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:46:49,728 [main] INFO tests.BaseTest - Airport Menu was selected
+2021-06-25 15:50:51,489 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:50:53,631 [main] INFO tests.BaseTest - Local Menu was selected
+2021-06-25 15:50:58,755 [main] INFO tests.BaseTest - Actual Result : local
+2021-06-25 15:53:07,604 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:53:13,492 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:53:16,221 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:53:18,170 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 15:54:54,940 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:55:00,640 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:55:03,799 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:55:05,995 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 15:55:24,374 [main] INFO tests.BaseTest - 1-07-2021-11:00 AM and 7-07-2021-10:15 PM was entered
+2021-06-25 15:55:25,064 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 15:55:26,492 [main] INFO tests.BaseTest - Proceed Button was clicked
+2021-06-25 15:55:26,585 [main] INFO tests.BaseTest - Actual Result : 
+2021-06-25 15:56:06,132 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:56:11,618 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 15:56:14,801 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 15:56:17,153 [main] INFO tests.BaseTest - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-06-25 15:58:23,764 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 15:58:24,265 [main] INFO tests.BaseTest - Airport Menu was selected
+2021-06-25 15:58:29,326 [main] INFO tests.BaseTest - Actual Result : airport
+2021-06-25 16:01:51,169 [main] INFO tests.BaseTest - Bus Hire link was clicked
+2021-06-25 16:01:56,898 [main] INFO tests.BaseTest - OutStation Menu was selected
+2021-06-25 16:02:00,157 [main] INFO tests.BaseTest - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-06-25 16:02:09,122 [main] INFO tests.BaseTest - 1-07-2021-11:00 AM and 6-07-2021-10:15 PM was entered
+2021-06-25 16:02:09,760 [main] INFO tests.BaseTest - 11 was entered
+2021-06-25 16:02:11,286 [main] INFO tests.BaseTest - Proceed Button was clicked
+2021-06-25 16:02:11,400 [main] INFO tests.BaseTest - Actual Result : outstation
