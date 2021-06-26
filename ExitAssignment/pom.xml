@@ -5,10 +5,7 @@
 	<groupId>ExitAssignment</groupId>
 	<artifactId>ExitAssignment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
+
 	<dependencies>
 
 		<!-- Custom dependency -->
@@ -81,12 +78,17 @@
 <artifactId>maven-clean-plugin</artifactId>
 <version>3.1.0</version>
 </plugin>
+
 <plugin>
 <artifactId>maven-resources-plugin</artifactId>
 <version>3.0.2</version>
 </plugin>
 <plugin>
 <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
 <version>3.8.0</version>
 </plugin>
 <plugin>
