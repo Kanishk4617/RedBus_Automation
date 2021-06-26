@@ -39,12 +39,5 @@ public class LoginTest extends BaseTest {
 		}
 	}
 
-	@Test
-	public void whenUserGoogleSignIn() throws Throwable {
-		LoginPage login = new LoginPage(driver);
-		login.iconClick();
-		login.signInClick();
-		login.clickGoogleSignIn();
-		Thread.sleep(5000);
-	}
+
 }
