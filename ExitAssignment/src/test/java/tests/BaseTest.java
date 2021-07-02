@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -13,28 +15,34 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxBinary;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
+import utils.BrowserUtils;
 import utils.ExcelFileIO;
+import utils.Screenshots;
 
 public class BaseTest {
 
-	static WebDriver driver;
+	protected static WebDriver driver;
 	public static Logger logger = Logger.getLogger(BaseTest.class);
-
+	public static RemoteWebDriver remotedriver;
 	public static String LOG_FILE = ".\\Resources\\log4j.properties";
 	static FileInputStream logfile = null;
 	static File file = new File(".\\Resources\\config.properties");
 	static FileInputStream fis = null;
-	static Properties prop = new Properties();
+	protected static Properties prop = new Properties();
 	public static ExcelFileIO reader = null;
+	public static ExtentReports extent;
+	public static ExtentTest extentTest;
 
 	static {
 		try {
@@ -63,71 +71,106 @@ public class BaseTest {
 			logger.error(e.getMessage());
 		}
 	}
-//	@AfterMethod(groups = { "valid", "invalid" })
-//	public void attachScreenshots(ITestResult result) {
-//		if (result.getStatus() == ITestResult.FAILURE) {
-//			String screenshotPath = Screenshots.takeScreenshot(driver, result.getName());
-//			extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenshotPath));
-//		} else if (result.getStatus() == ITestResult.SUCCESS) {
-//			extentTest.log(LogStatus.PASS, "Passed successfully");
-//		}
-//		extent.endTest(extentTest);
-//	}
+	@BeforeSuite
+	public static void setExtent() {
 
-	@BeforeMethod
-
-	public static void intializeWebdriver() throws Exception {
-
-		String browser = prop.getProperty("browser");
-		String headless = prop.getProperty("headless");
-		// Check if parameter passed is firefox
-		if (browser.equalsIgnoreCase("firefox")) {
-			if (headless.equalsIgnoreCase("yes")) {
-				System.setProperty(prop.getProperty("firefox_driver"), prop.getProperty("firefox_path"));
-				FirefoxBinary firefoxBinary = new FirefoxBinary();
-				firefoxBinary.addCommandLineOptions("-headless");
-				FirefoxOptions options = new FirefoxOptions();
-				options.setBinary(firefoxBinary);
-				driver = new FirefoxDriver(options);
-			} else if (headless.equalsIgnoreCase("no")) {
-				System.setProperty(prop.getProperty("firefox_driver"), prop.getProperty("firefox_path"));
-				driver = new FirefoxDriver();
-			}
-		}
-
-		// Check if parameter passed as 'chrome'
-		else if (browser.equalsIgnoreCase("chrome")) {
-			if (headless.equalsIgnoreCase("yes")) {
-				System.setProperty(prop.getProperty("driver_chrome"), prop.getProperty("path_chrome"));
-				ChromeOptions options = new ChromeOptions();
-				options.addArguments("headless");
-				driver = new ChromeDriver(options);
-			} else if (headless.equalsIgnoreCase("no")) {
-				System.setProperty(prop.getProperty("driver_chrome"), prop.getProperty("path_chrome"));
-				driver = new ChromeDriver();
-			}
-		} else if (browser.equalsIgnoreCase("edge")) {
-			System.setProperty(prop.getProperty("edge_driver"), prop.getProperty("edge_path"));
-			// create Edge instance
-			driver = new EdgeDriver();
-		} else {
-			// If no browser passed throw exception
-			throw new Exception("PLEASE CHECK THE BROWSER NAME !");
-		}
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		extent = new ExtentReports(".\\Reports\\ExtentReport.html");
 	}
 
-	@BeforeMethod
-	public static void openBrowser() {
-		driver.get(prop.getProperty("url"));
-		driver.manage().window().maximize();
-		}
+	@AfterSuite
+	public void endReport() {
+		extent.flush();
+		extent.close();
+	}
 
 	@AfterMethod
-	public static void closeBrowser() {
-		driver.close();
+	public void attachScreenshots(ITestResult result) {
+		if (result.getStatus() == ITestResult.FAILURE) {
+			String screenshotPath = Screenshots.takeScreenshot(driver, result.getName());
+			extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenshotPath));
+		} else if (result.getStatus() == ITestResult.SUCCESS) {
+			extentTest.log(LogStatus.PASS, "Passed successfully");
+		}
+		extent.endTest(extentTest);
 	}
 
+@BeforeMethod
+public void initializeBrowser() throws MalformedURLException, InterruptedException {
+	String browser = prop.getProperty("browser").toLowerCase();
+	boolean headlessMode = Boolean.parseBoolean(prop.getProperty("headlessMode"));
+	boolean runOnDocker = Boolean.parseBoolean(prop.getProperty("runOnDocker"));
+	if(runOnDocker) {
+
+		if(headlessMode) {
+			
+			 driver = BrowserUtils.openBrowserInHeadlessInDocker(browser);
+		}
+		else {
+			
+			driver = BrowserUtils.openBrowserInNonHeadlessInDocker(browser);
+		}
+	}
+	else {
+
+		if(headlessMode) {
+			System.out.println("---- headless---");
+			
+			driver = BrowserUtils.openBrowserInHeadlessInLocal(browser);
+		}
+		else {
+			System.out.println("---- Nonheadless---");
+			
+			driver = BrowserUtils.openBrowserInNonHeadlessInLocal(browser);
+		}
+	}
+}
+@BeforeMethod(dependsOnMethods = "initializeBrowser")
+public void setUp() {
+
+	driver.manage().window().maximize();
+	driver.manage().deleteAllCookies();
+	
+	if(!prop.getProperty("browser").equals("firefox")) {
+		
+		driver.manage().timeouts().implicitlyWait(Integer.parseInt(prop.getProperty("globalWait")), TimeUnit.SECONDS);
+		
+	}
+	// implicit wait will be for all elements 
+	
+	driver.get(prop.getProperty("testUrl"));
+	
+	logger.info(prop.getProperty("testUrl")+" page opened...");
+}
+public static RemoteWebDriver runInDocker() throws MalformedURLException {
+	final ChromeOptions options = new ChromeOptions();
+//	options.addArguments("--headless");
+	options.addArguments("--disable-gpu");
+	options.addArguments("--disable-dev-shm-usage");
+	options.addArguments("--no-sandbox");
+	options.addArguments("--allow-insecure-localhost");
+	options.addArguments("window-size=1920,1080");
+	options.addArguments("user-agent=Chrome/91.0.4472.124");
+	URL url = new URL("http://localhost:4449/wd/hub");
+	remotedriver = new RemoteWebDriver(url,options);
+//	remotedriver.manage().window().maximize();
+//	remotedriver.get("https://www.redbus.in/");
+	remotedriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	return remotedriver;
+}
+public static WebDriver runInHeadless() {
+	ChromeOptions chromeOptions = null;
+	System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+	chromeOptions = new ChromeOptions();
+	chromeOptions.addArguments("headless");
+	chromeOptions.addArguments("window-size=1920,1080");
+	chromeOptions.addArguments("user-agent=Chrome/91.0.4472.124");
+	driver = new ChromeDriver(chromeOptions);
+	return driver;
+}
+@AfterMethod
+public void closeBrowser() {
+	extent.endTest(extentTest);
+	logger.info("Browser is closed");
+	driver.quit();
+}
 }

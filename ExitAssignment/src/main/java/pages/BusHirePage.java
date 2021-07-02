@@ -4,13 +4,11 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 import pagesUtils.HelperClass;
-
 
 public class BusHirePage {
 	public WebDriver driver;
@@ -24,10 +22,10 @@ public class BusHirePage {
 	@FindBy(how = How.ID, using = "redBus Bus Hire")
 	private WebElement busHireLink;
 
-	@FindBy(how = How.XPATH, using = "//object")
+	@FindBy(how = How.XPATH, using = "//body/div[@id='reactContentMount']/div[1]/div[5]/div[2]/object[1]")
 	private WebElement frameWindow;
 
-	@FindBy(how = How.XPATH, using = "//*[text() = 'Outstation']")
+	@FindBy(how = How.XPATH, using = "//div[contains(text(),'Outstation')]")
 	private WebElement outStationMenu;
 
 	@FindBy(how = How.XPATH, using = "//*[@class='slider round']")
@@ -138,7 +136,8 @@ public class BusHirePage {
 		destinationInput.sendKeys(Keys.ENTER);
 	}
 
-	public void enterDateAndTimeForOutstation(String fromDateAndTimeVal , String tillDateAndTimeVal) throws InterruptedException {
+	public void enterDateAndTimeForOutstation(String fromDateAndTimeVal, String tillDateAndTimeVal)
+			throws InterruptedException {
 
 		try {
 			Thread.sleep(100);
@@ -146,12 +145,11 @@ public class BusHirePage {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		 JavascriptExecutor js = (JavascriptExecutor) driver;
-		 js.executeScript("window.scrollBy(0,1000)");
-		 
-		 JavascriptExecutor jse = (JavascriptExecutor)driver;
-			jse.executeScript("arguments[0].click()", fromDateAndTimeForOutstation);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1000)");
 
+		JavascriptExecutor jse = (JavascriptExecutor) driver;
+		jse.executeScript("arguments[0].click()", fromDateAndTimeForOutstation);
 
 		// selecting date and time
 		Thread.sleep(500);
@@ -161,7 +159,6 @@ public class BusHirePage {
 
 			e.printStackTrace();
 		}
-		
 		toDateAndTimeForOutstation.click();
 		// selecting date and time
 		try {
@@ -174,44 +171,38 @@ public class BusHirePage {
 	}
 
 	public void enterNumberOfPassengers(String numberOfPassenger) throws InterruptedException {
-		
-		 JavascriptExecutor js = (JavascriptExecutor) driver;
-		 js.executeScript("window.scrollBy(0,1000)");
-	
-			Thread.sleep(100);
-		
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1000)");
+
+		Thread.sleep(100);
+
 		numberOfPassengerField.clear();
 		numberOfPassengerField.sendKeys(numberOfPassenger);
 	}
 
 	public void clickOnProceedButtonOnOutstationMenu() throws InterruptedException {
-
-//		Actions actionHH =  new Actions(driver);
-//		actionHH.moveToElement(proceedButtonOnOutstation).click().perform();
-//		proceedButtonOnOutstation.click();
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
-		executor.executeScript("arguments[0].scrollIntoView(true);", proceedButtonOnOutstation);    
+		executor.executeScript("arguments[0].scrollIntoView(true);", proceedButtonOnOutstation);
 		proceedButtonOnOutstation.click();
-	
-			Thread.sleep(1000);
-		
+
+		Thread.sleep(1000);
+
 	}
 
 	// Flow For Airport
 	public void clickOnAirportMenu() {
-		
+
 		driver.switchTo().frame(frameWindow);
 		airPortMenu.click();
 	}
-	
-	
 
 	// Flow For Local
 	public void clickOnLocalMenu() {
-		
+
 		driver.switchTo().frame(frameWindow);
 		localMenu.click();
-		
+
 		try {
 			Thread.sleep(1500);
 		} catch (InterruptedException e) {

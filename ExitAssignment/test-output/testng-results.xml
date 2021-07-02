@@ -1,29 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-26T07:17:14Z" name="Default suite" finished-at="2021-06-26T07:17:26Z" duration-ms="11848">
+  <suite name="Default suite" duration-ms="52374" started-at="2021-07-02T08:56:03Z" finished-at="2021-07-02T08:56:56Z">
     <groups>
     </groups>
-    <test started-at="2021-06-26T07:17:14Z" name="Default test" finished-at="2021-06-26T07:17:26Z" duration-ms="11848">
-      <class name="tests.HomepageTest">
-        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:tests.HomepageTest@4108fa66]" started-at="2021-06-26T12:47:14Z" name="intializeWebdriver" finished-at="2021-06-26T12:47:17Z" duration-ms="3406" status="PASS">
+    <test name="Default test" duration-ms="52374" started-at="2021-07-02T08:56:03Z" finished-at="2021-07-02T08:56:56Z">
+      <class name="tests.AboutRedBusTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="setExtent" is-config="true" duration-ms="58" started-at="2021-07-02T14:26:03Z" finished-at="2021-07-02T14:26:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- intializeWebdriver -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.HomepageTest@4108fa66]" started-at="2021-06-26T12:47:17Z" name="openBrowser" finished-at="2021-06-26T12:47:20Z" duration-ms="2699" status="PASS">
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="initializeBrowser" is-config="true" duration-ms="1273" started-at="2021-07-02T14:26:03Z" finished-at="2021-07-02T14:26:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="whenUserClicksOnrpoolLink()[pri:0, instance:tests.HomepageTest@4108fa66]" started-at="2021-06-26T12:47:20Z" name="whenUserClicksOnrpoolLink" finished-at="2021-06-26T12:47:26Z" duration-ms="5497" status="PASS">
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="setUp" is-config="true" duration-ms="1497" started-at="2021-07-02T14:26:05Z" depends-on-methods="tests.BaseTest.initializeBrowser" finished-at="2021-07-02T14:26:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- whenUserClicksOnrpoolLink -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.HomepageTest@4108fa66]" started-at="2021-06-26T12:47:26Z" name="closeBrowser" finished-at="2021-06-26T12:47:26Z" duration-ms="191" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClicksOnAboutUs()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="whenUserClicksOnAboutUs" duration-ms="7203" started-at="2021-07-02T14:26:06Z" finished-at="2021-07-02T14:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClicksOnAboutUs -->
+        <test-method status="PASS" signature="attachScreenshots(org.testng.ITestResult)[pri:0, instance:tests.AboutRedBusTest@78452606]" name="attachScreenshots" is-config="true" duration-ms="1" started-at="2021-07-02T14:26:13Z" finished-at="2021-07-02T14:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClicksOnAboutUs status=SUCCESS method=AboutRedBusTest.whenUserClicksOnAboutUs()[pri:0, instance:tests.AboutRedBusTest@78452606] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshots -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="closeBrowser" is-config="true" duration-ms="581" started-at="2021-07-02T14:26:13Z" finished-at="2021-07-02T14:26:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.HomepageTest -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="initializeBrowser" is-config="true" duration-ms="1025" started-at="2021-07-02T14:26:14Z" finished-at="2021-07-02T14:26:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="setUp" is-config="true" duration-ms="1460" started-at="2021-07-02T14:26:15Z" depends-on-methods="tests.BaseTest.initializeBrowser" finished-at="2021-07-02T14:26:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClicksOnContactUs()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="whenUserClicksOnContactUs" duration-ms="7156" started-at="2021-07-02T14:26:17Z" finished-at="2021-07-02T14:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClicksOnContactUs -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="closeBrowser" is-config="true" duration-ms="566" started-at="2021-07-02T14:26:24Z" finished-at="2021-07-02T14:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenshots(org.testng.ITestResult)[pri:0, instance:tests.AboutRedBusTest@78452606]" name="attachScreenshots" is-config="true" duration-ms="0" started-at="2021-07-02T14:26:24Z" finished-at="2021-07-02T14:26:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClicksOnContactUs status=SUCCESS method=AboutRedBusTest.whenUserClicksOnContactUs()[pri:0, instance:tests.AboutRedBusTest@78452606] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshots -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="initializeBrowser" is-config="true" duration-ms="1041" started-at="2021-07-02T14:26:24Z" finished-at="2021-07-02T14:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="setUp" is-config="true" duration-ms="1479" started-at="2021-07-02T14:26:25Z" depends-on-methods="tests.BaseTest.initializeBrowser" finished-at="2021-07-02T14:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClicksOnOffers()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="whenUserClicksOnOffers" duration-ms="7141" started-at="2021-07-02T14:26:27Z" finished-at="2021-07-02T14:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClicksOnOffers -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="closeBrowser" is-config="true" duration-ms="597" started-at="2021-07-02T14:26:34Z" finished-at="2021-07-02T14:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenshots(org.testng.ITestResult)[pri:0, instance:tests.AboutRedBusTest@78452606]" name="attachScreenshots" is-config="true" duration-ms="0" started-at="2021-07-02T14:26:34Z" finished-at="2021-07-02T14:26:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClicksOnOffers status=SUCCESS method=AboutRedBusTest.whenUserClicksOnOffers()[pri:0, instance:tests.AboutRedBusTest@78452606] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshots -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="initializeBrowser" is-config="true" duration-ms="1006" started-at="2021-07-02T14:26:34Z" finished-at="2021-07-02T14:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="setUp" is-config="true" duration-ms="1574" started-at="2021-07-02T14:26:35Z" depends-on-methods="tests.BaseTest.initializeBrowser" finished-at="2021-07-02T14:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClicksOnSitemap()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="whenUserClicksOnSitemap" duration-ms="7152" started-at="2021-07-02T14:26:37Z" finished-at="2021-07-02T14:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClicksOnSitemap -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="closeBrowser" is-config="true" duration-ms="613" started-at="2021-07-02T14:26:44Z" finished-at="2021-07-02T14:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenshots(org.testng.ITestResult)[pri:0, instance:tests.AboutRedBusTest@78452606]" name="attachScreenshots" is-config="true" duration-ms="0" started-at="2021-07-02T14:26:44Z" finished-at="2021-07-02T14:26:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClicksOnSitemap status=SUCCESS method=AboutRedBusTest.whenUserClicksOnSitemap()[pri:0, instance:tests.AboutRedBusTest@78452606] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshots -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="initializeBrowser" is-config="true" duration-ms="1074" started-at="2021-07-02T14:26:45Z" finished-at="2021-07-02T14:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="setUp" is-config="true" duration-ms="2007" started-at="2021-07-02T14:26:46Z" depends-on-methods="tests.BaseTest.initializeBrowser" finished-at="2021-07-02T14:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClicksOnredbusMobile()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="whenUserClicksOnredbusMobile" duration-ms="7307" started-at="2021-07-02T14:26:48Z" finished-at="2021-07-02T14:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClicksOnredbusMobile -->
+        <test-method status="PASS" signature="attachScreenshots(org.testng.ITestResult)[pri:0, instance:tests.AboutRedBusTest@78452606]" name="attachScreenshots" is-config="true" duration-ms="0" started-at="2021-07-02T14:26:55Z" finished-at="2021-07-02T14:26:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClicksOnredbusMobile status=SUCCESS method=AboutRedBusTest.whenUserClicksOnredbusMobile()[pri:0, instance:tests.AboutRedBusTest@78452606] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshots -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="closeBrowser" is-config="true" duration-ms="600" started-at="2021-07-02T14:26:55Z" finished-at="2021-07-02T14:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.AboutRedBusTest@78452606]" name="endReport" is-config="true" duration-ms="167" started-at="2021-07-02T14:26:56Z" finished-at="2021-07-02T14:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.AboutRedBusTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

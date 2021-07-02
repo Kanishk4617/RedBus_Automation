@@ -1,6 +1,5 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,40 +14,28 @@ public class SocialMediaHandlePage {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
 	}
+
+	// Elements and flow for using social media pages
 	@FindBy(how = How.XPATH, using = "//a[@id='redBus']")
 	public WebElement busTickets;
 
 	@FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[1]/footer[1]/div[1]/section[6]/div[2]/a[1]")
 	public WebElement facebookIcon;
-	
+
 	@FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[1]/footer[1]/div[1]/section[6]/div[2]/a[2]")
 	public WebElement twitterIcon;
-	
-	@FindBy(how = How.XPATH, using = "/html[1]/body[1]/section[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/a[1]")
-	public WebElement aboutus;
-	
-	@FindBy(how = How.XPATH, using = "/html[1]/body[1]/section[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/a[2]")
-	public WebElement contactus;
-//	@FindBy(how = How.LINK_TEXT, using = "About Us")
-//	public WebElement aboutus;
+
+	// for opening facebook page
 	public void fbIconClick() {
-//		driver.switchTo().frame(driver.findElement(By.className("modalIframe")));
 		facebookIcon.click();
 	}
 
+	// for opening twitter page
 	public void twitterIconClick() {
-//		driver.switchTo().frame(driver.findElement(By.className("modalIframe")));
 		twitterIcon.click();
 	}
-	
-	public void aboutUsClick() {
-		aboutus.click();
-	}
 
-	public void contactUsClick() {
-		contactus.click();
-	}
-	
+	// for openeing bus tickets page
 	public void busTicketsClick() {
 		busTickets.click();
 	}

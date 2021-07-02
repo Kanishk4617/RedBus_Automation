@@ -35,6 +35,7 @@ public class BusHirePageTest extends BaseTest{
 		String executionRequired = testData.get("Execution Required").toLowerCase();
 		// if execution required field is no
 		CommonUtils.toCheckExecutionRequired(executionRequired);
+		extentTest = extent.startTest("Valid information for Outstation test");
 		BusHirePage busHirePage = new BusHirePage(driver);
 
 		HomepageFunctionality homePage = new HomepageFunctionality(driver);
@@ -60,10 +61,21 @@ public class BusHirePageTest extends BaseTest{
 		busHirePage.clickOnProceedButtonOnOutstationMenu();
 		logger.info("Proceed Button was clicked");
 
-		String actualResult = driver.findElement(By.xpath("//*[@class = 'headerlabelsummary']")).getText().toLowerCase();
+		String actualResult = driver.findElement(By.xpath("//*[@class = 'headerlabelsummary']")).getText();
 		logger.info("Actual Result : "+actualResult);
-
-		Assert.assertTrue(actualResult.contains(expectedResult.toLowerCase()), "Assertion on actual and expected result of header summary label");
+		
+		if(actualResult.equals("Fill Contact Details"))
+		{
+			Assert.assertEquals("Fill Contact Details", actualResult);
+			logger.info("test case passed");
+		}
+		else
+		{
+			extentTest.log(LogStatus.FAIL, "Test case failed");
+			Assert.assertEquals("Fill Contact Details", actualResult);
+			logger.info("test case failed");
+		}
+	
 	}
 
 	// test case for invalid from location
@@ -85,6 +97,9 @@ public class BusHirePageTest extends BaseTest{
 
 		// if execution required field is no
 		CommonUtils.toCheckExecutionRequired(executionRequired);
+		
+		extentTest = extent.startTest("user does not enter destination information for  test");
+
 
 		// Test
 		BusHirePage busHirePage = new BusHirePage(driver);
@@ -136,6 +151,9 @@ public class BusHirePageTest extends BaseTest{
 
 		// if execution required field is no
 		CommonUtils.toCheckExecutionRequired(executionRequired);
+		
+		extentTest = extent.startTest("user does not enter source information for  test");
+
 
 		// Test
 		BusHirePage busHirePage = new BusHirePage(driver);
@@ -172,6 +190,8 @@ public class BusHirePageTest extends BaseTest{
 	public void whenUserClickedOnLocalMenu() {
 
 		String testName = "whenUserClickedOnLocalMenu";
+		
+		extentTest = extent.startTest("User clicks on Local menu test");
 
 		// Fetching all test data from excel file
 		HashMap<String, String> testData = new HashMap<String, String>();
@@ -209,6 +229,8 @@ public class BusHirePageTest extends BaseTest{
 	// test case for AirportMenu
 	@Test()
 	public void whenUserClickedOnAirportMenu() {
+
+		extentTest = extent.startTest("User clicks on Airport menu test");
 
 		String testName = "whenUserClickedOnAirportMenu";
 		// Fetching all test data from excel file

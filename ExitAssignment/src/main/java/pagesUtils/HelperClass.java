@@ -87,21 +87,20 @@ public static void selectDateAndTimeAtBusHirePage(WebDriver driver, String dateA
 //				calDay.click();
 //				driver.findElement(By.xpath("//body/div[5]/div[3]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[6]/button[1]/span[1]/p[1]")).click();
 				// selecting time HH
-				calHH = driver.findElement(By.xpath("//*[text() = '"+HH+"' and @class = 'MuiTypography-root MuiPickersClockNumber-clockNumber MuiTypography-body1']"));
+				calHH = driver.findElement(By.xpath("//*[text() = '"+HH+"']"));
 				Actions actionHH =  new Actions(driver);
 				actionHH.moveToElement(calHH).click().perform();
 				
 				
 				try {
 
-					Thread.sleep(500);
+					Thread.sleep(5000);
 				}
 				catch(Exception e) {
 					System.out.println(e.getMessage());
 				}
-
 				// selecting time MM
-				calMM = driver.findElement(By.xpath("//*[text() = '"+MM+"' and @class = 'MuiTypography-root MuiPickersClockNumber-clockNumber MuiTypography-body1']"));
+				calMM = driver.findElement(By.xpath("//*[text() = '"+MM+"']"));
 				Actions actionMM =  new Actions(driver);
 				actionMM.moveToElement(calMM).click().perform();
 				
@@ -112,7 +111,7 @@ public static void selectDateAndTimeAtBusHirePage(WebDriver driver, String dateA
 				actionAM.moveToElement(calAMorPM).click().perform();
 	
 				// click on ok button
-				okButton = driver.findElement(By.xpath("//div[@class= 'MuiDialogActions-root MuiDialogActions-spacing']//button[2]"));
+				okButton = driver.findElement(By.xpath("//span[contains(text(),'OK')]"));
 				okButton.click();
 				
 				requiredDate = true;
