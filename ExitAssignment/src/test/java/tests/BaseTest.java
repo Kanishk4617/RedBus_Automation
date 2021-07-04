@@ -15,6 +15,9 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxBinary;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -26,10 +29,10 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+import ScreenshotJar.Screenshots;
+//import ScreenshotJar.Screenshots;
 import utils.BrowserUtils;
 import utils.ExcelFileIO;
-import utils.Screenshots;
-
 public class BaseTest {
 
 	protected static WebDriver driver;
@@ -86,7 +89,7 @@ public class BaseTest {
 	@AfterMethod
 	public void attachScreenshots(ITestResult result) {
 		if (result.getStatus() == ITestResult.FAILURE) {
-			String screenshotPath = Screenshots.takeScreenshot(driver, result.getName());
+			String screenshotPath =Screenshots.takeScreenshot(driver, result.getName());
 			extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenshotPath));
 		} else if (result.getStatus() == ITestResult.SUCCESS) {
 			extentTest.log(LogStatus.PASS, "Passed successfully");
@@ -173,4 +176,52 @@ public void closeBrowser() {
 	logger.info("Browser is closed");
 	driver.quit();
 }
+//	@BeforeMethod
+//	public static void intializeWebdriver() throws Exception {
+//		String browser = prop.getProperty("browser");
+//		String headless = prop.getProperty("headless");
+//
+//		if (browser.equalsIgnoreCase("firefox")) {
+//			if (headless.equalsIgnoreCase("yes")) {
+//				System.setProperty(prop.getProperty("driver_firefox"), prop.getProperty("path_firefox"));
+//				FirefoxBinary firefoxBinary = new FirefoxBinary();
+//				firefoxBinary.addCommandLineOptions("-headless");
+//				FirefoxOptions options = new FirefoxOptions();
+//				options.setBinary(firefoxBinary);
+//				driver = new FirefoxDriver(options);
+//			} else if (headless.equalsIgnoreCase("no")) {
+//				System.setProperty(prop.getProperty("driver_path"), prop.getProperty("path_firefox"));
+//				driver = new FirefoxDriver();
+//				driver.manage().window().maximize();
+//			}
+//		}
+//
+//		else if (browser.equalsIgnoreCase("chrome")) {
+//			if (headless.equalsIgnoreCase("yes")) {
+//				System.setProperty(prop.getProperty("driver_chrome"), prop.getProperty("path_chrome"));
+//				ChromeOptions options = new ChromeOptions();
+//				options.addArguments("headless");
+//				driver = new ChromeDriver(options);
+//			} else if (headless.equalsIgnoreCase("no")) {
+//				System.setProperty(prop.getProperty("driver_chrome"), prop.getProperty("path_chrome"));
+//				driver = new ChromeDriver();
+//			}
+//		} else {
+//			// If no browser passed throw exception
+//			throw new Exception("PLEASE CHECK THE BROWSER NAME !");
+//		}
+//		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+//	}
+//
+//	@BeforeMethod
+//	public static void openBrowser() {
+//
+//		driver.get(prop.getProperty("url"));
+//	}
+//
+//	@AfterMethod
+//	public static void closeBrowser() {
+//		driver.quit();
+//	}
 }

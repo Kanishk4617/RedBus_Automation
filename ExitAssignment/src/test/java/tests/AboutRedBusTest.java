@@ -13,6 +13,7 @@ import utils.CommonUtils;
 public class AboutRedBusTest extends BaseTest {
 	// sheet name which is used by all tests
 	private String sheetName = "AboutusPageTest";
+
 	@Test
 	public void whenUserClicksOnAboutUs() throws Throwable {
 		// testcase name
@@ -36,7 +37,7 @@ public class AboutRedBusTest extends BaseTest {
 		aboutus.changeWindow();
 		logger.info("Window is switched");
 
-		String str = driver.getTitle();	
+		String str = driver.getTitle();
 
 		if (str.equals(expectedTitle)) {
 			Assert.assertEquals(expectedTitle, driver.getTitle());
@@ -47,7 +48,7 @@ public class AboutRedBusTest extends BaseTest {
 			logger.info("test case failed");
 		}
 	}
-	
+
 	@Test
 	public void whenUserClicksOnContactUs() throws Throwable {
 		// testcase name
@@ -67,13 +68,12 @@ public class AboutRedBusTest extends BaseTest {
 		socialMedia.contactUsClick();
 		logger.info("Contact Us button is clicked");
 		Thread.sleep(4000);
-		
+
 		socialMedia.changeWindow();
 		logger.info("Window is switched");
 
-		String str = driver.getTitle();	
+		String str = driver.getTitle();
 		System.out.println(str);
-
 
 		if (str.equals(expectedTitle)) {
 			Assert.assertEquals(expectedTitle, driver.getTitle());
@@ -84,7 +84,7 @@ public class AboutRedBusTest extends BaseTest {
 			logger.info("test case failed");
 		}
 	}
-	
+
 	@Test
 	public void whenUserClicksOnredbusMobile() throws Throwable {
 		// testcase name
@@ -104,11 +104,11 @@ public class AboutRedBusTest extends BaseTest {
 		socialMedia.redbusMobileClick();
 		logger.info("Redbus Mobile is clicked");
 		Thread.sleep(4000);
-		
+
 		socialMedia.changeWindow();
 		logger.info("Window is switched");
 
-		String str = driver.getTitle();	
+		String str = driver.getTitle();
 //		System.out.println(str);
 		if (str.equals(expectedTitle)) {
 			Assert.assertEquals(expectedTitle, driver.getTitle());
@@ -119,7 +119,7 @@ public class AboutRedBusTest extends BaseTest {
 			logger.info("test case failed");
 		}
 	}
-	
+
 	@Test
 	public void whenUserClicksOnSitemap() throws Throwable {
 		// testcase name
@@ -135,16 +135,16 @@ public class AboutRedBusTest extends BaseTest {
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		extentTest = extent.startTest("Sitemap test");
-		
+
 		AboutRedbusPage socialMedia = new AboutRedbusPage(driver);
 		socialMedia.sitemapClick();
 		logger.info("Sitemap button is clicked");
 		Thread.sleep(4000);
-		
+
 		socialMedia.changeWindow();
 		logger.info("Window is switched");
 
-		String str = driver.getTitle();	
+		String str = driver.getTitle();
 
 		if (str.equals(expectedTitle)) {
 			Assert.assertEquals(expectedTitle, driver.getTitle());
@@ -155,7 +155,7 @@ public class AboutRedBusTest extends BaseTest {
 			logger.info("test case failed");
 		}
 	}
-	
+
 	@Test
 	public void whenUserClicksOnOffers() throws Throwable {
 		// testcase name
@@ -171,16 +171,16 @@ public class AboutRedBusTest extends BaseTest {
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		extentTest = extent.startTest("Offers test");
-		
+
 		AboutRedbusPage offer = new AboutRedbusPage(driver);
 		offer.offersClick();
 		logger.info("Offers button is clicked");
 		Thread.sleep(4000);
-		
+
 		offer.changeWindow();
 		logger.info("Window is switched");
 
-		String str = driver.getTitle();	
+		String str = driver.getTitle();
 		System.out.print(str);
 		if (str.equals(expectedTitle)) {
 			Assert.assertEquals(expectedTitle, driver.getTitle());

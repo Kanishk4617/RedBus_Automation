@@ -163,7 +163,7 @@ public class HomepageTest extends BaseTest {
 
 		hm.changeWindow();
 		logger.info("Current window is help window");
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 
 		hm.clickCross();
 		logger.info("Cross Button is clicked");

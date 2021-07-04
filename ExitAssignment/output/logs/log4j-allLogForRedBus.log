@@ -1879,4 +1879,444 @@
  2021-07-02 14:26:56,488 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
  2021-07-02 14:26:56,488 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
  2021-07-02 14:26:56,488 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 10:22:14,550  INFO [TestNG-test=Test-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:22:18,605  INFO [TestNG-test=Test-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:22:20,765  INFO [TestNG-test=Test-1] BaseTest:70 - rPool button is clicked
+ 2021-07-03 10:22:20,913  INFO [TestNG-test=Test-1] BaseTest:73 - Corporate Plus button is clicked
+ 2021-07-03 10:22:23,952  INFO [TestNG-test=Test-1] BaseTest:79 - test case passed
+ 2021-07-03 10:22:23,965  INFO [TestNG-test=Test-1] BaseTest:173 - Browser is closed
+ 2021-07-03 10:22:26,524  INFO [TestNG-test=Test-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:22:32,966  INFO [TestNG-test=Test-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:22:35,280  INFO [TestNG-test=Test-1] BaseTest:35 - rPool button is clicked
+ 2021-07-03 10:22:35,595  INFO [TestNG-test=Test-1] BaseTest:38 - Customer Review button is clicked
+ 2021-07-03 10:22:38,613  INFO [TestNG-test=Test-1] BaseTest:44 - test case passed
+ 2021-07-03 10:22:38,619  INFO [TestNG-test=Test-1] BaseTest:173 - Browser is closed
+ 2021-07-03 10:22:41,305  INFO [TestNG-test=Test-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:22:48,564  INFO [TestNG-test=Test-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:22:51,154  INFO [TestNG-test=Test-1] BaseTest:174 - rPool button is clicked
+ 2021-07-03 10:22:52,167  INFO [TestNG-test=Test-1] BaseTest:177 - FAQ button is clicked
+ 2021-07-03 10:22:55,188  INFO [TestNG-test=Test-1] BaseTest:182 - test case passed
+ 2021-07-03 10:22:55,192  INFO [TestNG-test=Test-1] BaseTest:173 - Browser is closed
+ 2021-07-03 10:22:57,658  INFO [TestNG-test=Test-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:23:06,985  INFO [TestNG-test=Test-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:23:10,910  INFO [TestNG-test=Test-1] BaseTest:140 - rPool button is clicked
+ 2021-07-03 10:23:11,282  INFO [TestNG-test=Test-1] BaseTest:143 - rPool for rwa button is clicked
+ 2021-07-03 10:23:14,309  INFO [TestNG-test=Test-1] BaseTest:148 - test case passed
+ 2021-07-03 10:23:14,315  INFO [TestNG-test=Test-1] BaseTest:173 - Browser is closed
+ 2021-07-03 10:23:17,138  INFO [TestNG-test=Test-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:23:22,657  INFO [TestNG-test=Test-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:23:25,055  INFO [TestNG-test=Test-1] BaseTest:105 - rPool button is clicked
+ 2021-07-03 10:23:25,500  INFO [TestNG-test=Test-1] BaseTest:108 - What is rPool button is clicked
+ 2021-07-03 10:23:28,524  INFO [TestNG-test=Test-1] BaseTest:114 - test case passed
+ 2021-07-03 10:23:28,527  INFO [TestNG-test=Test-1] BaseTest:173 - Browser is closed
+ 2021-07-03 10:23:31,339  INFO [TestNG-test=Test1-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:23:37,086  INFO [TestNG-test=Test1-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:23:37,337  INFO [TestNG-test=Test1-1] BaseTest:80 - Help button is clicked
+ 2021-07-03 10:23:37,425  INFO [TestNG-test=Test1-1] BaseTest:83 - Window is changed to help window
+ 2021-07-03 10:23:43,779  INFO [TestNG-test=Test1-1] BaseTest:87 - cross button is clicked
+ 2021-07-03 10:23:44,416  INFO [TestNG-test=Test1-1] BaseTest:91 - Covid19 travel Advisory is clicked
+ 2021-07-03 10:23:46,537  INFO [TestNG-test=Test1-1] BaseTest:96 - test case passed
+ 2021-07-03 10:23:46,727  INFO [TestNG-test=Test1-1] BaseTest:103 - Help window is closed
+ 2021-07-03 10:23:46,736  INFO [TestNG-test=Test1-1] BaseTest:173 - Browser is closed
+ 2021-07-03 10:23:49,363  INFO [TestNG-test=Test1-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:23:55,383  INFO [TestNG-test=Test1-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:23:55,681  INFO [TestNG-test=Test1-1] BaseTest:34 - Help button is clicked
+ 2021-07-03 10:23:55,753  INFO [TestNG-test=Test1-1] BaseTest:37 - Window is changed to help window
+ 2021-07-03 10:24:02,697  INFO [TestNG-test=Test1-1] BaseTest:41 - cross button is clicked
+ 2021-07-03 10:24:03,153  INFO [TestNG-test=Test1-1] BaseTest:44 - New Bus Booking Help is clicked
+ 2021-07-03 10:24:05,245  INFO [TestNG-test=Test1-1] BaseTest:50 - test case passed
+ 2021-07-03 10:24:05,388  INFO [TestNG-test=Test1-1] BaseTest:57 - Help window is closed
+ 2021-07-03 10:24:05,395  INFO [TestNG-test=Test1-1] BaseTest:173 - Browser is closed
+ 2021-07-03 10:24:08,003  INFO [TestNG-test=Test1-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:24:10,742  INFO [TestNG-test=Test1-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:24:11,034  INFO [TestNG-test=Test1-1] BaseTest:167 - Help button is clicked
+ 2021-07-03 10:24:11,102  INFO [TestNG-test=Test1-1] BaseTest:170 - Window is changed to help window
+ 2021-07-03 10:24:17,400  INFO [TestNG-test=Test1-1] BaseTest:174 - cross button is clicked
+ 2021-07-03 10:24:17,763  INFO [TestNG-test=Test1-1] BaseTest:177 - Technical issue option is clicked
+ 2021-07-03 10:24:19,850  INFO [TestNG-test=Test1-1] BaseTest:183 - test case passed
+ 2021-07-03 10:24:20,000  INFO [TestNG-test=Test1-1] BaseTest:190 - Help window is closed
+ 2021-07-03 10:24:20,005  INFO [TestNG-test=Test1-1] BaseTest:173 - Browser is closed
+ 2021-07-03 10:24:22,650  INFO [TestNG-test=Test1-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:24:26,695  INFO [TestNG-test=Test1-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:24:26,984  INFO [TestNG-test=Test1-1] BaseTest:124 - Help button is clicked
+ 2021-07-03 10:24:27,089  INFO [TestNG-test=Test1-1] BaseTest:127 - Window is changed to help window
+ 2021-07-03 10:24:33,533  INFO [TestNG-test=Test1-1] BaseTest:131 - cross button is clicked
+ 2021-07-03 10:24:34,055  INFO [TestNG-test=Test1-1] BaseTest:134 - Safety feature is clicked
+ 2021-07-03 10:24:36,142  INFO [TestNG-test=Test1-1] BaseTest:139 - test case passed
+ 2021-07-03 10:24:36,270  INFO [TestNG-test=Test1-1] BaseTest:146 - Help window is closed
+ 2021-07-03 10:24:36,276  INFO [TestNG-test=Test1-1] BaseTest:173 - Browser is closed
+ 2021-07-03 10:24:37,319 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 10:24:37,321 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 10:24:37,326 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 10:24:37,328 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 10:24:37,329 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 10:24:37,808 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 10:24:37,808 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 10:24:37,809 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 10:24:37,809 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 10:24:37,809 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 10:27:44,754  INFO [TestNG-test=Test-2] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:27:44,754  INFO [TestNG-test=Test-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:27:51,408  INFO [TestNG-test=Test-2] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:27:52,126  INFO [TestNG-test=Test-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:27:52,337  INFO [TestNG-test=Test-2] BaseTest:80 - Help button is clicked
+ 2021-07-03 10:27:54,402  INFO [TestNG-test=Test-1] BaseTest:70 - rPool button is clicked
+ 2021-07-03 10:27:55,051  INFO [TestNG-test=Test-1] BaseTest:73 - Corporate Plus button is clicked
+ 2021-07-03 10:27:55,071  INFO [TestNG-test=Test-2] BaseTest:83 - Window is changed to help window
+ 2021-07-03 10:27:58,629  INFO [TestNG-test=Test-1] BaseTest:173 - Browser is closed
+ 2021-07-03 10:28:01,409  INFO [TestNG-test=Test-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:34:02,849  INFO [TestNG-test=Test-2] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:34:02,849  INFO [TestNG-test=Test-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:34:06,142  INFO [TestNG-test=Test-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:34:38,379  INFO [TestNG-test=Test-2] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:34:42,373  INFO [TestNG-test=Test-1] BaseTest:70 - rPool button is clicked
+ 2021-07-03 10:34:43,921  INFO [TestNG-test=Test-1] BaseTest:73 - Corporate Plus button is clicked
+ 2021-07-03 10:34:43,924  INFO [TestNG-test=Test-2] BaseTest:173 - Browser is closed
+ 2021-07-03 10:34:46,589  INFO [TestNG-test=Test-2] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:34:54,349  INFO [TestNG-test=Test-2] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:34:55,319  INFO [TestNG-test=Test-2] BaseTest:34 - Help button is clicked
+ 2021-07-03 10:34:55,425  INFO [TestNG-test=Test-1] BaseTest:173 - Browser is closed
+ 2021-07-03 10:34:55,428  INFO [TestNG-test=Test-2] BaseTest:37 - Window is changed to help window
+ 2021-07-03 10:34:58,048  INFO [TestNG-test=Test-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:35:04,043  INFO [TestNG-test=Test-1] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:35:05,129  INFO [TestNG-test=Test-2] BaseTest:173 - Browser is closed
+ 2021-07-03 10:35:07,209  INFO [TestNG-test=Test-1] BaseTest:35 - rPool button is clicked
+ 2021-07-03 10:35:09,614  INFO [TestNG-test=Test-2] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 10:35:12,914  INFO [TestNG-test=Test-2] BaseTest:142 - https://www.redbus.in/ page opened...
+ 2021-07-03 10:50:20,339  INFO [TestNG-test=Test-1] BaseTest:70 - rPool button is clicked
+ 2021-07-03 10:50:21,288  INFO [TestNG-test=Test-1] BaseTest:73 - Corporate Plus button is clicked
+ 2021-07-03 10:50:30,154  INFO [TestNG-test=Test-2] BaseTest:34 - Help button is clicked
+ 2021-07-03 10:50:36,796  INFO [TestNG-test=Test-1] BaseTest:35 - rPool button is clicked
+ 2021-07-03 10:50:38,098  INFO [TestNG-test=Test-1] BaseTest:38 - Customer Review button is clicked
+ 2021-07-03 10:50:44,715  INFO [TestNG-test=Test-2] BaseTest:167 - Help button is clicked
+ 2021-07-03 10:50:55,855  INFO [TestNG-test=Test-1] BaseTest:174 - rPool button is clicked
+ 2021-07-03 10:52:04,530  INFO [TestNG-test=Test-2] BaseTest:80 - Help button is clicked
+ 2021-07-03 10:52:06,815  INFO [TestNG-test=Test-1] BaseTest:70 - rPool button is clicked
+ 2021-07-03 10:52:07,142  INFO [TestNG-test=Test-1] BaseTest:73 - Corporate Plus button is clicked
+ 2021-07-03 10:52:07,163  INFO [TestNG-test=Test-2] BaseTest:83 - Window is changed to help window
+ 2021-07-03 10:52:19,470  INFO [TestNG-test=Test-1] BaseTest:35 - rPool button is clicked
+ 2021-07-03 10:52:29,017  INFO [TestNG-test=Test-2] BaseTest:34 - Help button is clicked
+ 2021-07-03 11:01:25,095  INFO [TestNG-test=Test-2] BaseTest:70 - rPool button is clicked
+ 2021-07-03 11:01:25,989  INFO [TestNG-test=Test-2] BaseTest:73 - Corporate Plus button is clicked
+ 2021-07-03 11:01:35,488  INFO [TestNG-test=Test-1] BaseTest:130 - Bus Tickets button is clicked
+ 2021-07-03 11:08:43,713  INFO [TestNG-tests-2] BaseTest:70 - rPool button is clicked
+ 2021-07-03 11:08:44,776  INFO [TestNG-tests-2] BaseTest:73 - Corporate Plus button is clicked
+ 2021-07-03 11:08:53,614  INFO [TestNG-tests-1] BaseTest:130 - Bus Tickets button is clicked
+ 2021-07-03 11:09:00,479  INFO [TestNG-tests-2] BaseTest:35 - rPool button is clicked
+ 2021-07-03 11:09:00,665  INFO [TestNG-tests-2] BaseTest:38 - Customer Review button is clicked
+ 2021-07-03 11:09:03,691  INFO [TestNG-tests-2] BaseTest:44 - test case passed
+ 2021-07-03 11:09:10,558  INFO [TestNG-tests-2] BaseTest:174 - rPool button is clicked
+ 2021-07-03 11:09:11,174  INFO [TestNG-tests-2] BaseTest:177 - FAQ button is clicked
+ 2021-07-03 11:09:14,194  INFO [TestNG-tests-2] BaseTest:182 - test case passed
+ 2021-07-03 11:09:21,123  INFO [TestNG-tests-2] BaseTest:140 - rPool button is clicked
+ 2021-07-03 11:09:21,590  INFO [TestNG-tests-2] BaseTest:143 - rPool for rwa button is clicked
+ 2021-07-03 11:09:24,614  INFO [TestNG-tests-2] BaseTest:148 - test case passed
+ 2021-07-03 11:09:31,174  INFO [TestNG-tests-2] BaseTest:105 - rPool button is clicked
+ 2021-07-03 11:09:31,296  INFO [TestNG-tests-2] BaseTest:108 - What is rPool button is clicked
+ 2021-07-03 11:09:34,351  INFO [TestNG-tests-2] BaseTest:114 - test case passed
+ 2021-07-03 11:09:35,407 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 11:09:35,412 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 11:09:35,416 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 11:09:35,418 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 11:09:35,420 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 11:09:36,068 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 11:09:36,069 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 11:09:36,070 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 11:09:36,072 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 11:09:36,073 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 11:14:10,190  INFO [TestNG-tests-2] BaseTest:70 - rPool button is clicked
+ 2021-07-03 11:14:11,144  INFO [TestNG-tests-2] BaseTest:73 - Corporate Plus button is clicked
+ 2021-07-03 11:14:23,325  INFO [TestNG-tests-1] BaseTest:63 - Bus Tickets button is clicked
+ 2021-07-03 11:29:11,773  INFO [TestNG-tests-2] BaseTest:70 - rPool button is clicked
+ 2021-07-03 11:29:12,998  INFO [TestNG-tests-2] BaseTest:73 - Corporate Plus button is clicked
+ 2021-07-03 11:30:51,203  INFO [TestNG-tests-2] BaseTest:70 - rPool button is clicked
+ 2021-07-03 11:30:52,181  INFO [TestNG-tests-2] BaseTest:73 - Corporate Plus button is clicked
+ 2021-07-03 11:36:52,030  INFO [TestNG-tests-1] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-03 11:37:06,608  INFO [TestNG-tests-1] BaseTest:35 - facebook button is clicked
+ 2021-07-03 11:37:16,913  INFO [TestNG-tests-2] BaseTest:35 - rPool button is clicked
+ 2021-07-03 11:37:17,090  INFO [TestNG-tests-2] BaseTest:38 - Customer Review button is clicked
+ 2021-07-03 11:37:20,115  INFO [TestNG-tests-2] BaseTest:44 - test case passed
+ 2021-07-03 11:37:27,767  INFO [TestNG-tests-2] BaseTest:174 - rPool button is clicked
+ 2021-07-03 11:37:28,372  INFO [TestNG-tests-2] BaseTest:177 - FAQ button is clicked
+ 2021-07-03 11:37:31,392  INFO [TestNG-tests-2] BaseTest:182 - test case passed
+ 2021-07-03 11:37:40,343  INFO [TestNG-tests-2] BaseTest:140 - rPool button is clicked
+ 2021-07-03 11:37:40,594  INFO [TestNG-tests-2] BaseTest:143 - rPool for rwa button is clicked
+ 2021-07-03 11:37:43,633  INFO [TestNG-tests-2] BaseTest:148 - test case passed
+ 2021-07-03 11:37:52,475  INFO [TestNG-tests-2] BaseTest:105 - rPool button is clicked
+ 2021-07-03 11:37:52,603  INFO [TestNG-tests-2] BaseTest:108 - What is rPool button is clicked
+ 2021-07-03 11:37:55,648  INFO [TestNG-tests-2] BaseTest:114 - test case passed
+ 2021-07-03 11:37:56,586 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 11:37:56,589 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 11:37:56,594 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 11:37:56,596 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 11:37:56,597 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 11:37:57,167 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 11:37:57,168 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 11:37:57,169 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 11:37:57,170 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 11:37:57,171 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 11:40:41,767  INFO [main] BaseTest:70 - rPool button is clicked
+ 2021-07-03 11:40:42,408  INFO [main] BaseTest:73 - Corporate Plus button is clicked
+ 2021-07-03 11:40:45,441  INFO [main] BaseTest:79 - test case passed
+ 2021-07-03 11:40:46,463 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 11:40:46,466 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 11:40:46,470 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 11:40:46,472 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 11:40:46,473 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 11:42:30,996  INFO [TestNG-tests-1] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-03 11:42:46,175  INFO [TestNG-tests-1] BaseTest:35 - facebook button is clicked
+ 2021-07-03 11:42:53,168  INFO [TestNG-tests-2] BaseTest:35 - rPool button is clicked
+ 2021-07-03 11:42:53,809  INFO [TestNG-tests-2] BaseTest:38 - Customer Review button is clicked
+ 2021-07-03 11:42:56,828  INFO [TestNG-tests-2] BaseTest:44 - test case passed
+ 2021-07-03 11:43:03,991  INFO [TestNG-tests-2] BaseTest:175 - rPool button is clicked
+ 2021-07-03 11:43:04,271  INFO [TestNG-tests-2] BaseTest:178 - FAQ button is clicked
+ 2021-07-03 11:43:07,295  INFO [TestNG-tests-2] BaseTest:183 - test case passed
+ 2021-07-03 11:43:17,486  INFO [TestNG-tests-2] BaseTest:141 - rPool button is clicked
+ 2021-07-03 11:43:18,151  INFO [TestNG-tests-2] BaseTest:144 - rPool for rwa button is clicked
+ 2021-07-03 11:43:21,175  INFO [TestNG-tests-2] BaseTest:149 - test case passed
+ 2021-07-03 11:43:28,320  INFO [TestNG-tests-2] BaseTest:106 - rPool button is clicked
+ 2021-07-03 11:43:28,914  INFO [TestNG-tests-2] BaseTest:109 - What is rPool button is clicked
+ 2021-07-03 11:43:31,946  INFO [TestNG-tests-2] BaseTest:115 - test case passed
+ 2021-07-03 11:43:33,070 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 11:43:33,073 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 11:43:33,079 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 11:43:33,081 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 11:43:33,082 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 11:44:46,787  INFO [TestNG-test=Test-1] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-03 11:44:53,706  INFO [TestNG-test=Test-1] BaseTest:35 - facebook button is clicked
+ 2021-07-03 11:45:39,960  INFO [TestNG-test=Test-2] BaseTest:70 - rPool button is clicked
+ 2021-07-03 11:53:48,812  INFO [TestNG-test=Test-1] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-03 11:53:49,909  INFO [TestNG-test=Test-2] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-03 11:54:01,609  INFO [TestNG-test=Test-1] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-03 11:54:02,879  INFO [TestNG-test=Test-2] BaseTest:176 - Browser is closed
+ 2021-07-03 11:54:09,521  INFO [TestNG-test=Test-1] BaseTest:35 - facebook button is clicked
+ 2021-07-03 11:54:15,136  INFO [TestNG-test=Test-2] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-03 11:54:16,873  INFO [TestNG-test=Test-1] BaseTest:176 - Browser is closed
+ 2021-07-03 11:54:18,004  INFO [TestNG-test=Test-2] BaseTest:35 - rPool button is clicked
+ 2021-07-03 12:38:50,244  INFO [main] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 12:38:54,103  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-03 12:38:55,583  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-03 12:38:56,415  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-03 12:38:59,445  INFO [main] BaseTest:44 - test case passed
+ 2021-07-03 12:38:59,456  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-03 12:39:00,489 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 12:39:00,492 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 12:39:00,496 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 12:39:00,498 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 12:39:00,500 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 12:39:00,813 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 12:39:00,814 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 12:39:00,814 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 12:39:00,815 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 12:39:00,815 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 12:39:46,358  INFO [main] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 12:39:52,063  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-03 12:39:53,981  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-03 12:39:54,591  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-03 12:39:57,871  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-03 12:39:58,901 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 12:39:58,905 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 12:39:58,908 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 12:39:58,911 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 12:39:58,913 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 12:39:59,482 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-03 12:39:59,483 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-03 12:39:59,484 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-03 12:39:59,485 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-03 12:39:59,486 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-03 18:22:20,708  INFO [TestNG-test=Test-1] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 18:22:20,708  INFO [TestNG-test=Test-2] BaseTest:116 - Chrome driver initiated in head mode
+ 2021-07-03 18:22:28,947  INFO [TestNG-test=Test-2] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-03 18:22:29,598  INFO [TestNG-test=Test-1] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-03 18:22:31,820  INFO [TestNG-test=Test-2] BaseTest:35 - rPool button is clicked
+ 2021-07-03 18:22:32,535  INFO [TestNG-test=Test-2] BaseTest:38 - Customer Review button is clicked
+ 2021-07-03 18:22:32,549  INFO [TestNG-test=Test-1] BaseTest:176 - Browser is closed
+ 2021-07-04 12:29:23,039  INFO [main] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:29:25,360  INFO [main] BaseTest:34 - rPool button is clicked
+ 2021-07-04 12:29:27,418  INFO [main] BaseTest:40 - test case passed
+ 2021-07-04 12:29:27,439  INFO [main] BaseTest:175 - Browser is closed
+ 2021-07-04 12:29:28,571 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:29:28,573 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:29:28,576 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:29:28,578 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:29:28,578 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 12:29:29,250 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:29:29,252 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:29:29,253 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:29:29,254 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:29:29,255 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 12:30:04,185  INFO [TestNG-test=Test-1] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:30:04,815  INFO [TestNG-test=Test-2] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:30:07,513  INFO [TestNG-test=Test-1] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-04 12:30:08,615  INFO [TestNG-test=Test-2] BaseTest:175 - Browser is closed
+ 2021-07-04 12:30:13,981  INFO [TestNG-test=Test-1] BaseTest:35 - facebook button is clicked
+ 2021-07-04 12:31:11,259  INFO [main] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:31:14,153  INFO [main] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-04 12:31:18,472  INFO [main] BaseTest:35 - facebook button is clicked
+ 2021-07-04 12:31:20,512  INFO [main] BaseTest:41 - test case passed
+ 2021-07-04 12:31:20,523  INFO [main] BaseTest:175 - Browser is closed
+ 2021-07-04 12:31:25,922  INFO [main] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:31:27,307  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-04 12:31:27,500  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-04 12:31:30,520  INFO [main] BaseTest:44 - test case passed
+ 2021-07-04 12:31:30,524  INFO [main] BaseTest:175 - Browser is closed
+ 2021-07-04 12:31:31,323 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:31:31,326 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:31:31,329 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:31:31,332 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:31:31,334 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 12:31:31,671 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:31:31,673 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:31:31,674 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:31:31,674 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:31:31,675 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 12:35:20,421  INFO [main] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:35:23,197  INFO [main] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-04 12:35:27,224  INFO [main] BaseTest:35 - facebook button is clicked
+ 2021-07-04 12:35:29,262  INFO [main] BaseTest:41 - test case passed
+ 2021-07-04 12:35:29,272  INFO [main] BaseTest:175 - Browser is closed
+ 2021-07-04 12:35:34,555  INFO [main] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:35:36,072  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-04 12:35:36,239  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-04 12:35:39,254  INFO [main] BaseTest:44 - test case passed
+ 2021-07-04 12:35:39,257  INFO [main] BaseTest:175 - Browser is closed
+ 2021-07-04 12:35:39,974 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:35:39,976 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:35:39,979 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:35:39,982 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:35:39,983 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 12:35:40,378 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:35:40,380 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:35:40,381 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:35:40,382 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:35:40,382 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 12:37:19,177  INFO [main] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:37:21,641  INFO [main] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-04 12:37:26,052  INFO [main] BaseTest:35 - facebook button is clicked
+ 2021-07-04 12:37:28,098  INFO [main] BaseTest:41 - test case passed
+ 2021-07-04 12:37:28,108  INFO [main] BaseTest:175 - Browser is closed
+ 2021-07-04 12:38:25,594  INFO [main] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:38:27,029  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-04 12:38:27,331  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-04 12:38:30,364  INFO [main] BaseTest:44 - test case passed
+ 2021-07-04 12:38:30,367  INFO [main] BaseTest:175 - Browser is closed
+ 2021-07-04 12:38:31,207 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:38:31,211 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:38:31,217 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:38:31,223 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:38:31,225 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 12:38:31,576 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:38:31,578 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:38:31,579 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:38:31,580 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:38:31,580 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 12:44:15,509  INFO [main] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:44:18,951  INFO [main] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-04 12:44:24,337  INFO [main] BaseTest:35 - facebook button is clicked
+ 2021-07-04 12:44:26,376  INFO [main] BaseTest:41 - test case passed
+ 2021-07-04 12:44:26,386  INFO [main] BaseTest:175 - Browser is closed
+ 2021-07-04 12:44:32,920  INFO [main] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:44:34,524  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-04 12:44:34,982  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-04 12:44:38,005  INFO [main] BaseTest:44 - test case passed
+ 2021-07-04 12:44:38,009  INFO [main] BaseTest:175 - Browser is closed
+ 2021-07-04 12:44:39,009 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:44:39,013 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:44:39,019 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:44:39,022 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:44:39,024 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 12:44:39,621 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:44:39,623 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:44:39,624 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:44:39,625 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:44:39,626 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 12:47:46,998  INFO [main] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:47:49,810  INFO [main] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-04 12:47:54,265  INFO [main] BaseTest:35 - facebook button is clicked
+ 2021-07-04 12:47:56,304  INFO [main] BaseTest:41 - test case passed
+ 2021-07-04 12:47:56,313  INFO [main] BaseTest:175 - Browser is closed
+ 2021-07-04 12:48:01,630  INFO [main] BaseTest:144 - https://www.redbus.in/ page opened...
+ 2021-07-04 12:48:02,916  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-04 12:48:03,098  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-04 12:48:06,125  INFO [main] BaseTest:44 - test case passed
+ 2021-07-04 12:48:06,128  INFO [main] BaseTest:175 - Browser is closed
+ 2021-07-04 12:48:07,007 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:48:07,009 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:48:07,012 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:48:07,015 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:48:07,016 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 12:48:07,315 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 12:48:07,317 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 12:48:07,318 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 12:48:07,319 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 12:48:07,320 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 13:23:42,289  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-04 13:23:45,707  INFO [main] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-04 13:23:51,586  INFO [main] BaseTest:35 - facebook button is clicked
+ 2021-07-04 13:23:53,629  INFO [main] BaseTest:41 - test case passed
+ 2021-07-04 13:23:53,644  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-04 13:23:59,478  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-04 13:24:01,226  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-04 13:24:01,478  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-04 13:24:04,509  INFO [main] BaseTest:44 - test case passed
+ 2021-07-04 13:24:04,514  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-04 13:24:05,359 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 13:24:05,364 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 13:24:05,370 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 13:24:05,374 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 13:24:05,375 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 13:24:05,971 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 13:24:05,974 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 13:24:05,975 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 13:24:05,976 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 13:24:05,977 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 14:39:36,548  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-04 14:39:38,144  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-04 14:39:38,229  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-04 14:39:41,241  INFO [main] BaseTest:44 - test case passed
+ 2021-07-04 14:39:41,244  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-04 14:39:42,073 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 14:39:42,074 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 14:39:42,075 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 14:39:42,076 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 14:39:42,076 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 14:39:42,210 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 14:39:42,210 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 14:39:42,211 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 14:39:42,211 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 14:39:42,211 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 15:48:30,193  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-04 15:48:32,230  INFO [main] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-04 15:48:35,377  INFO [main] BaseTest:35 - facebook button is clicked
+ 2021-07-04 15:48:37,416  INFO [main] BaseTest:41 - test case passed
+ 2021-07-04 15:48:37,421  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-04 15:48:40,917  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-04 15:48:42,171  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-04 15:48:42,241  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-04 15:48:45,265  INFO [main] BaseTest:44 - test case passed
+ 2021-07-04 15:48:45,267  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-04 15:48:45,893 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 15:48:45,894 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 15:48:45,896 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 15:48:45,897 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 15:48:45,898 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 15:48:46,067 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 15:48:46,069 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 15:48:46,069 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 15:48:46,069 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 15:48:46,069 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 15:50:15,062  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-04 15:50:16,431  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-04 15:50:16,518  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-04 15:50:19,694  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-04 15:50:20,313 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 15:50:20,314 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 15:50:20,315 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 15:50:20,315 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 15:50:20,316 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-07-04 15:50:20,454 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+ 2021-07-04 15:50:20,455 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+ 2021-07-04 15:50:20,455 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-07-04 15:50:20,455 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-07-04 15:50:20,456 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/kanishkjain/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
  

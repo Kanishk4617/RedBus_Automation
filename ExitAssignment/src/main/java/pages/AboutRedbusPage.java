@@ -18,22 +18,21 @@ public class AboutRedbusPage {
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'About Us')]")
 	public WebElement aboutus;
-	
+
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Contact Us')]")
 	public WebElement contactus;
-	
+
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Mobile Version')]")
 	public WebElement redbusMobile;
-	
+
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Sitemap')]")
 	public WebElement sitemap;
-	
+
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Offers')]")
 	public WebElement offers;
-	
+
 	public void aboutUsClick() {
-		((JavascriptExecutor) driver)
-	     .executeScript("window.scrollTo(0, document.body.scrollHeight)");
+		((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -44,8 +43,7 @@ public class AboutRedbusPage {
 	}
 
 	public void contactUsClick() {
-		((JavascriptExecutor) driver)
-	     .executeScript("window.scrollTo(0, document.body.scrollHeight)");
+		((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -55,10 +53,9 @@ public class AboutRedbusPage {
 
 		contactus.click();
 	}
-	
+
 	public void redbusMobileClick() {
-		((JavascriptExecutor) driver)
-	     .executeScript("window.scrollTo(0, document.body.scrollHeight)");
+		((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -67,17 +64,15 @@ public class AboutRedbusPage {
 		}
 		redbusMobile.click();
 	}
-	
+
 	public void sitemapClick() throws Throwable {
-		((JavascriptExecutor) driver)
-	     .executeScript("window.scrollTo(0, document.body.scrollHeight)");
+		((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		Thread.sleep(3000);
 		sitemap.click();
 	}
-	
+
 	public void offersClick() {
-		((JavascriptExecutor) driver)
-	     .executeScript("window.scrollTo(0, document.body.scrollHeight)");
+		((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -86,7 +81,7 @@ public class AboutRedbusPage {
 		}
 		offers.click();
 	}
-	
+
 	static String winHandleBefore;
 
 	public void changeWindow() {

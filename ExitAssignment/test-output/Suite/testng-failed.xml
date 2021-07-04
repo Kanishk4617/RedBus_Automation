@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
     <classes>
       <class name="tests.RPoolFunctionalityTest">
         <methods>
+          <include name="attachScreenshots"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
-          <include name="whenUserClicksOn_FAQ"/>
-          <include name="whenUserClicksOn_Rpool_for_rwa"/>
-          <include name="whenUserClicksOn_What_is_rPool"/>
-          <include name="whenUserClicksOnCorporatePlus"/>
+          <include name="endReport"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
           <include name="whenUserClicksOnCustomerReview"/>
         </methods>
       </class> <!-- tests.RPoolFunctionalityTest -->
+      <class name="tests.SocialMediaHandleTest">
+        <methods>
+          <include name="attachScreenshots"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="userClicksFacebookIcon"/>
+          <include name="endReport"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.SocialMediaHandleTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
