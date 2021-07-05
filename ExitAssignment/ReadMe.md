@@ -123,7 +123,7 @@ or **github link**:- https://github.com/Kanishk4617/RedBus_Automation.git
 1. Open project directory in cmd.
 2. Run following command: "docker-compose -f docker-compose.yml up -d"
 3. Change configuration in config.properties.
-4. To run test cases in parallel, add the following in testNG : **<suite thread-count="5" name="Suite" parallel="classes">**
+4. To run test cases in parallel, add the following in testNG : **"<suite thread-count="5" name="Suite" parallel="classes">"**
 
 ---
 
