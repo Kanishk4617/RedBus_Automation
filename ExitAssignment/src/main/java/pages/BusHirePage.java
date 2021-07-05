@@ -20,76 +20,76 @@ public class BusHirePage {
 	}
 
 	@FindBy(how = How.ID, using = "redBus Bus Hire")
-	private WebElement busHireLink;
+	public WebElement busHireLink;
 
 	@FindBy(how = How.XPATH, using = "//body/div[@id='reactContentMount']/div[1]/div[5]/div[2]/object[1]")
-	private WebElement frameWindow;
+	public WebElement frameWindow;
 
 	@FindBy(how = How.XPATH, using = "//div[contains(text(),'Outstation')]")
-	private WebElement outStationMenu;
+	public WebElement outStationMenu;
 
 	@FindBy(how = How.XPATH, using = "//*[@class='slider round']")
-	private WebElement sliderRound;
+	public WebElement sliderRound;
 
 	@FindBy(how = How.ID, using = "locationTextFieldLocal")
-	private WebElement pickUpInput;
+	public WebElement pickUpInput;
 
 	@FindBy(how = How.ID, using = "local_dest_name")
-	private WebElement destinationInput;
+	public WebElement destinationInput;
 
 	@FindBy(how = How.XPATH, using = "//*[@id='from_datepicker']/div/div/input")
-	private WebElement fromDateAndTimeForOutstation;
+	public WebElement fromDateAndTimeForOutstation;
 
 	@FindBy(how = How.XPATH, using = "//*[@id='to_datepicker']/div/div/input")
-	private WebElement toDateAndTimeForOutstation;
+	public WebElement toDateAndTimeForOutstation;
 
 	@FindBy(how = How.XPATH, using = "//*[text() = 'OK']")
-	private WebElement dateAndTimeOkButton;
+	public WebElement dateAndTimeOkButton;
 
 	@FindBy(how = How.ID, using = "numberOfPax")
-	private WebElement numberOfPassengerField;
+	public WebElement numberOfPassengerField;
 
 	@FindBy(how = How.XPATH, using = "//button[@id='proceedButtonOutstation']")
-	private WebElement proceedButtonOnOutstation;
+	public WebElement proceedButtonOnOutstation;
 
 	@FindBy(how = How.XPATH, using = "//*[text() = 'Local']")
-	private WebElement localMenu;
+	public WebElement localMenu;
 
 	@FindBy(how = How.XPATH, using = "//*[@id='locationTextFieldLocal']")
-	private WebElement pickUpLocationOnLocalMenu;
+	public WebElement pickUpLocationOnLocalMenu;
 
 	@FindBy(how = How.XPATH, using = "//input[@type = 'radio' and @value = '4']")
-	private WebElement selectPackage;
+	public WebElement selectPackage;
 
 	@FindBy(how = How.XPATH, using = "//*[@class = 'MuiInputBase-input MuiInput-input']")
-	private WebElement dateAndTimeOnLocalMenu;
+	public WebElement dateAndTimeOnLocalMenu;
 
 	@FindBy(how = How.ID, using = "numberOfPax")
-	private WebElement numberOfPassengersOnLocalMenu;
+	public WebElement numberOfPassengersOnLocalMenu;
 
 	@FindBy(how = How.ID, using = "proceedButtonLocal")
-	private WebElement proceedButtonLocal;
+	public WebElement proceedButtonLocal;
 
 	@FindBy(how = How.XPATH, using = "//*[text() = 'Airport']")
-	private WebElement airPortMenu;
+	public WebElement airPortMenu;
 
 	@FindBy(how = How.XPATH, using = "//*[@class='select-selected']")
-	private WebElement citySelect;
+	public WebElement citySelect;
 
 	@FindBy(how = How.ID, using = "locationTextFieldLocal")
-	private WebElement destLocationFieldOnAirportMenu;
+	public WebElement destLocationFieldOnAirportMenu;
 
 	@FindBy(how = How.XPATH, using = "//*[@id = 'ui-id-1']/li")
-	private WebElement searchLocationResult;
+	public WebElement searchLocationResult;
 
 	@FindBy(how = How.XPATH, using = "//*[@id='from_datepicker']/div/div/input")
-	private WebElement fromDateAndTimeOnAirportMenu;
+	public WebElement fromDateAndTimeOnAirportMenu;
 
 	@FindBy(how = How.ID, using = "numberOfPax")
-	private WebElement numberOfPassengersOnAirportMenu;
+	public WebElement numberOfPassengersOnAirportMenu;
 
 	@FindBy(how = How.ID, using = "proceedButtonAirport")
-	private WebElement proceedButtonOnAirportMenu;
+	public WebElement proceedButtonOnAirportMenu;
 
 	public void clickOnOutstationMenu() {
 

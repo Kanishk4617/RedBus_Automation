@@ -1429,4 +1429,225 @@
  2021-07-05 10:47:53,327  INFO [TestNG-test=Test-1] BaseTest:145 - https://www.redbus.in/ page opened...
  2021-07-05 10:47:55,044  INFO [TestNG-test=Test-2] BaseTest:176 - Browser is closed
  2021-07-05 10:47:57,602  INFO [TestNG-test=Test-1] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-05 11:12:37,700  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:12:40,691  INFO [main] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-05 11:12:45,517  INFO [main] BaseTest:35 - facebook button is clicked
+ 2021-07-05 11:12:47,541  INFO [main] BaseTest:41 - test case passed
+ 2021-07-05 11:12:47,544  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:12:50,977  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:12:54,396  INFO [main] BaseTest:63 - Bus Tickets button is clicked
+ 2021-07-05 11:12:57,678  INFO [main] BaseTest:66 - twitter button is clicked
+ 2021-07-05 11:12:59,698  INFO [main] BaseTest:72 - test case passed
+ 2021-07-05 11:12:59,699  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:13:03,717  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:13:05,296  INFO [main] BaseTest:71 - rPool button is clicked
+ 2021-07-05 11:13:08,381  INFO [main] BaseTest:75 - Corporate Plus button is clicked
+ 2021-07-05 11:13:11,399  INFO [main] BaseTest:81 - test case passed
+ 2021-07-05 11:13:11,402  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:13:14,790  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:13:19,945  INFO [main] BaseTest:35 - rPool button is clicked
+ 2021-07-05 11:13:20,003  INFO [main] BaseTest:38 - Customer Review button is clicked
+ 2021-07-05 11:13:23,014  INFO [main] BaseTest:44 - test case passed
+ 2021-07-05 11:13:23,016  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:13:26,210  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:13:27,347  INFO [main] BaseTest:176 - rPool button is clicked
+ 2021-07-05 11:13:27,447  INFO [main] BaseTest:179 - FAQ button is clicked
+ 2021-07-05 11:13:30,467  INFO [main] BaseTest:184 - test case passed
+ 2021-07-05 11:13:30,469  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:13:33,710  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:13:35,119  INFO [main] BaseTest:142 - rPool button is clicked
+ 2021-07-05 11:13:35,222  INFO [main] BaseTest:145 - rPool for rwa button is clicked
+ 2021-07-05 11:13:38,245  INFO [main] BaseTest:150 - test case passed
+ 2021-07-05 11:13:38,250  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:13:41,488  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:13:42,814  INFO [main] BaseTest:107 - rPool button is clicked
+ 2021-07-05 11:13:42,911  INFO [main] BaseTest:110 - What is rPool button is clicked
+ 2021-07-05 11:13:45,929  INFO [main] BaseTest:116 - test case passed
+ 2021-07-05 11:13:45,930  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:13:49,759  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:13:50,075  INFO [main] BaseTest:80 - Help button is clicked
+ 2021-07-05 11:13:50,248  INFO [main] BaseTest:83 - Window is changed to help window
+ 2021-07-05 11:13:56,350  INFO [main] BaseTest:87 - cross button is clicked
+ 2021-07-05 11:13:56,478  INFO [main] BaseTest:91 - Covid19 travel Advisory is clicked
+ 2021-07-05 11:13:58,530  INFO [main] BaseTest:96 - test case passed
+ 2021-07-05 11:13:58,621  INFO [main] BaseTest:103 - Help window is closed
+ 2021-07-05 11:13:58,622  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:14:01,772  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:14:02,024  INFO [main] BaseTest:34 - Help button is clicked
+ 2021-07-05 11:14:02,168  INFO [main] BaseTest:37 - Window is changed to help window
+ 2021-07-05 11:14:08,272  INFO [main] BaseTest:41 - cross button is clicked
+ 2021-07-05 11:14:08,402  INFO [main] BaseTest:44 - New Bus Booking Help is clicked
+ 2021-07-05 11:14:10,483  INFO [main] BaseTest:50 - test case passed
+ 2021-07-05 11:14:10,575  INFO [main] BaseTest:57 - Help window is closed
+ 2021-07-05 11:14:10,577  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:14:15,661  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:14:15,717  INFO [main] BaseTest:167 - Help button is clicked
+ 2021-07-05 11:14:15,864  INFO [main] BaseTest:170 - Window is changed to help window
+ 2021-07-05 11:14:21,947  INFO [main] BaseTest:174 - cross button is clicked
+ 2021-07-05 11:14:22,110  INFO [main] BaseTest:177 - Technical issue option is clicked
+ 2021-07-05 11:14:24,167  INFO [main] BaseTest:183 - test case passed
+ 2021-07-05 11:14:24,261  INFO [main] BaseTest:190 - Help window is closed
+ 2021-07-05 11:14:24,262  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:14:28,119  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:14:28,698  INFO [main] BaseTest:124 - Help button is clicked
+ 2021-07-05 11:14:28,869  INFO [main] BaseTest:127 - Window is changed to help window
+ 2021-07-05 11:14:34,988  INFO [main] BaseTest:131 - cross button is clicked
+ 2021-07-05 11:14:35,182  INFO [main] BaseTest:134 - Safety feature is clicked
+ 2021-07-05 11:14:37,237  INFO [main] BaseTest:139 - test case passed
+ 2021-07-05 11:14:37,334  INFO [main] BaseTest:146 - Help window is closed
+ 2021-07-05 11:14:37,335  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:17:19,237  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:17:21,731  INFO [main] BaseTest:181 - Bus Ticket Button is clicked
+ 2021-07-05 11:17:21,885  INFO [main] BaseTest:184 - Invalid Source location is entered
+ 2021-07-05 11:17:22,038  INFO [main] BaseTest:187 - Valid Destination location is entered
+ 2021-07-05 11:17:22,116  INFO [main] BaseTest:190 - 29-July-2021 date is entered
+ 2021-07-05 11:17:24,235  INFO [main] BaseTest:193 - search buses button is clicked
+ 2021-07-05 11:17:26,274  INFO [main] BaseTest:200 - test case valid
+ 2021-07-05 11:17:26,281  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:17:29,471  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:17:31,840  INFO [main] BaseTest:134 - Bus Ticket Button is clicked
+ 2021-07-05 11:17:32,126  INFO [main] BaseTest:137 - Invalid Source location is entered
+ 2021-07-05 11:17:32,289  INFO [main] BaseTest:140 - Valid Destination location is entered
+ 2021-07-05 11:17:32,398  INFO [main] BaseTest:143 - 29-July 2021 date is entered
+ 2021-07-05 11:17:34,473  INFO [main] BaseTest:146 - search buses button is clicked
+ 2021-07-05 11:17:36,510  INFO [main] BaseTest:153 - test case valid
+ 2021-07-05 11:17:36,513  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:17:57,956  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:17:59,896  INFO [main] BaseTest:86 - Bus Ticket Button is clicked
+ 2021-07-05 11:18:00,229  INFO [main] BaseTest:89 - Source location is entered
+ 2021-07-05 11:18:00,319  INFO [main] BaseTest:92 - Invalid Destination location is entered
+ 2021-07-05 11:18:00,378  INFO [main] BaseTest:95 - 28-July 2021 date is entered
+ 2021-07-05 11:18:02,467  INFO [main] BaseTest:98 - search buses button is clicked
+ 2021-07-05 11:18:04,495  INFO [main] BaseTest:105 - test case valid
+ 2021-07-05 11:18:04,497  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:18:30,691  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:18:33,069  INFO [main] BaseTest:38 - Bus Ticket Button is clicked
+ 2021-07-05 11:18:33,473  INFO [main] BaseTest:41 - Source location is entered
+ 2021-07-05 11:18:33,568  INFO [main] BaseTest:44 - Destination location is entered
+ 2021-07-05 11:18:33,623  INFO [main] BaseTest:47 - 28-Jun 2021 date is entered
+ 2021-07-05 11:18:36,528  INFO [main] BaseTest:50 - search buses button is clicked
+ 2021-07-05 11:18:38,551  INFO [main] BaseTest:56 - test case passed
+ 2021-07-05 11:18:38,552  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:18:41,528  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:18:42,987  INFO [main] BaseTest:252 - Bus Hire link was clicked
+ 2021-07-05 11:18:44,347  INFO [main] BaseTest:255 - Airport Menu was selected
+ 2021-07-05 11:18:49,393  INFO [main] BaseTest:265 - Actual Result : airport
+ 2021-07-05 11:18:49,394  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:18:52,441  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:18:54,382  INFO [main] BaseTest:210 - Bus Hire link was clicked
+ 2021-07-05 11:18:57,590  INFO [main] BaseTest:213 - Local Menu was selected
+ 2021-07-05 11:19:02,651  INFO [main] BaseTest:224 - Actual Result : local
+ 2021-07-05 11:19:02,652  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:19:06,935  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:19:09,548  INFO [main] BaseTest:110 - Bus Hire link was clicked
+ 2021-07-05 11:19:16,618  INFO [main] BaseTest:113 - OutStation Menu was selected
+ 2021-07-05 11:19:18,100  INFO [main] BaseTest:118 - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+ 2021-07-05 11:19:32,231  INFO [main] BaseTest:121 - 21-07-2021-11:00 AM and 25-07-2021-10:15 PM was entered
+ 2021-07-05 11:19:32,459  INFO [main] BaseTest:124 - 11 was entered
+ 2021-07-05 11:19:33,599  INFO [main] BaseTest:127 - Proceed Button was clicked
+ 2021-07-05 11:19:33,633  INFO [main] BaseTest:130 - Actual Result : outstation
+ 2021-07-05 11:19:33,634  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:19:37,312  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:19:39,244  INFO [main] BaseTest:164 - Bus Hire link was clicked
+ 2021-07-05 11:19:46,169  INFO [main] BaseTest:167 - OutStation Menu was selected
+ 2021-07-05 11:19:48,498  INFO [main] BaseTest:170 - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+ 2021-07-05 11:20:02,348  INFO [main] BaseTest:173 - 21-07-2021-11:15 AM and 26-07-2021-10:15 PM was entered
+ 2021-07-05 11:20:02,580  INFO [main] BaseTest:176 - 11 was entered
+ 2021-07-05 11:20:03,710  INFO [main] BaseTest:179 - Proceed Button was clicked
+ 2021-07-05 11:20:03,745  INFO [main] BaseTest:182 - Actual Result : outstation
+ 2021-07-05 11:20:03,746  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:20:07,136  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:20:09,268  INFO [main] BaseTest:44 - Bus Hire link was clicked
+ 2021-07-05 11:20:16,365  INFO [main] BaseTest:47 - OutStation Menu was selected
+ 2021-07-05 11:20:18,702  INFO [main] BaseTest:50 - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+ 2021-07-05 11:20:20,084  INFO [main] BaseTest:53 - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+ 2021-07-05 11:20:34,276  INFO [main] BaseTest:56 - 20-07-2021-11:15 AM and 23-07-2021-10:30 PM was entered
+ 2021-07-05 11:20:34,585  INFO [main] BaseTest:59 - 11 was entered
+ 2021-07-05 11:20:35,765  INFO [main] BaseTest:62 - Proceed Button was clicked
+ 2021-07-05 11:20:35,806  INFO [main] BaseTest:65 - Actual Result : Fill Contact Details
+ 2021-07-05 11:20:35,806  INFO [main] BaseTest:70 - test case passed
+ 2021-07-05 11:20:35,807  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:20:39,855  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:20:43,007  INFO [main] BaseTest:34 - About Us button is clicked
+ 2021-07-05 11:20:47,059  INFO [main] BaseTest:38 - Window is switched
+ 2021-07-05 11:20:47,065  INFO [main] BaseTest:44 - test case passed
+ 2021-07-05 11:20:47,066  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:20:50,385  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:20:53,498  INFO [main] BaseTest:69 - Contact Us button is clicked
+ 2021-07-05 11:20:57,563  INFO [main] BaseTest:73 - Window is switched
+ 2021-07-05 11:20:57,569  INFO [main] BaseTest:80 - test case passed
+ 2021-07-05 11:20:57,570  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:21:00,846  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:21:03,973  INFO [main] BaseTest:177 - Offers button is clicked
+ 2021-07-05 11:21:08,025  INFO [main] BaseTest:181 - Window is switched
+ 2021-07-05 11:21:08,032  INFO [main] BaseTest:187 - test case passed
+ 2021-07-05 11:21:08,034  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:21:12,340  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:21:15,697  INFO [main] BaseTest:141 - Sitemap button is clicked
+ 2021-07-05 11:21:19,737  INFO [main] BaseTest:145 - Window is switched
+ 2021-07-05 11:21:19,742  INFO [main] BaseTest:151 - test case passed
+ 2021-07-05 11:21:19,743  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:21:24,067  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:21:27,182  INFO [main] BaseTest:105 - Redbus Mobile is clicked
+ 2021-07-05 11:21:31,228  INFO [main] BaseTest:109 - Window is switched
+ 2021-07-05 11:21:31,236  INFO [main] BaseTest:115 - test case passed
+ 2021-07-05 11:21:31,237  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:21:35,642  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:21:37,826  INFO [main] BaseTest:66 - Bus Hire link is clicked
+ 2021-07-05 11:21:39,842  INFO [main] BaseTest:72 - test case passed
+ 2021-07-05 11:21:39,843  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:21:43,386  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:21:45,467  INFO [main] BaseTest:130 - Bus Tickets button is clicked
+ 2021-07-05 11:21:47,480  INFO [main] BaseTest:136 - test case passed
+ 2021-07-05 11:21:47,481  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:21:51,015  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:21:51,284  INFO [main] BaseTest:162 - Help button is clicked
+ 2021-07-05 11:21:51,440  INFO [main] BaseTest:165 - Current window is help window
+ 2021-07-05 11:21:57,549  INFO [main] BaseTest:169 - Cross Button is clicked
+ 2021-07-05 11:21:57,556  INFO [main] BaseTest:173 - test case passed
+ 2021-07-05 11:21:57,582  INFO [main] BaseTest:180 - Help window is closed
+ 2021-07-05 11:21:57,583  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:22:01,280  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:22:02,275  INFO [main] BaseTest:98 - RedBus logo button is clicked
+ 2021-07-05 11:22:04,290  INFO [main] BaseTest:104 - test case passed
+ 2021-07-05 11:22:04,291  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 11:22:08,043  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 11:22:09,556  INFO [main] BaseTest:34 - rPool button is clicked
+ 2021-07-05 11:22:11,578  INFO [main] BaseTest:40 - test case passed
+ 2021-07-05 11:22:11,580  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 12:31:08,649  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 12:31:10,271  INFO [main] BaseTest:44 - Bus Hire link was clicked
+ 2021-07-05 12:31:16,510  INFO [main] BaseTest:47 - OutStation Menu was selected
+ 2021-07-05 12:31:18,850  INFO [main] BaseTest:50 - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+ 2021-07-05 12:31:20,158  INFO [main] BaseTest:53 - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+ 2021-07-05 12:31:34,124  INFO [main] BaseTest:56 - 20-07-2021-11:15 AM and 23-07-2021-10:30 PM was entered
+ 2021-07-05 12:31:34,365  INFO [main] BaseTest:59 - 11 was entered
+ 2021-07-05 12:31:35,516  INFO [main] BaseTest:62 - Proceed Button was clicked
+ 2021-07-05 12:31:35,553  INFO [main] BaseTest:65 - Actual Result : Fill Contact Details
+ 2021-07-05 12:31:35,554  INFO [main] BaseTest:70 - test case passed
+ 2021-07-05 12:31:35,558  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 13:09:41,496  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 13:09:43,935  INFO [main] BaseTest:44 - Bus Hire link was clicked
+ 2021-07-05 13:09:51,419  INFO [main] BaseTest:47 - OutStation Menu was selected
+ 2021-07-05 13:09:53,826  INFO [main] BaseTest:50 - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+ 2021-07-05 13:09:55,236  INFO [main] BaseTest:53 - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+ 2021-07-05 13:10:09,916  INFO [main] BaseTest:56 - 1-08-2021-11:15 AM and 5-08-2021-10:30 PM was entered
+ 2021-07-05 13:10:10,197  INFO [main] BaseTest:59 - 11 was entered
+ 2021-07-05 13:10:11,409  INFO [main] BaseTest:62 - Proceed Button was clicked
+ 2021-07-05 13:10:11,452  INFO [main] BaseTest:65 - Actual Result : Fill Contact Details
+ 2021-07-05 13:10:11,454  INFO [main] BaseTest:70 - test case passed
+ 2021-07-05 13:10:11,459  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 13:24:00,992  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 13:24:03,493  INFO [main] BaseTest:32 - Bus Tickets button is clicked
+ 2021-07-05 13:24:07,269  INFO [main] BaseTest:35 - facebook button is clicked
+ 2021-07-05 13:24:09,281  INFO [main] BaseTest:41 - test case passed
+ 2021-07-05 13:24:09,284  INFO [main] BaseTest:176 - Browser is closed
+ 2021-07-05 17:46:59,363  INFO [main] BaseTest:145 - https://www.redbus.in/ page opened...
+ 2021-07-05 17:46:59,758  INFO [main] BaseTest:124 - Help button is clicked
+ 2021-07-05 17:46:59,879  INFO [main] BaseTest:127 - Window is changed to help window
+ 2021-07-05 17:47:06,568  INFO [main] BaseTest:131 - cross button is clicked
+ 2021-07-05 17:47:07,010  INFO [main] BaseTest:134 - Safety feature is clicked
+ 2021-07-05 17:47:09,131  INFO [main] BaseTest:139 - test case passed
+ 2021-07-05 17:47:09,235  INFO [main] BaseTest:146 - Help window is closed
+ 2021-07-05 17:47:09,247  INFO [main] BaseTest:176 - Browser is closed
  

@@ -1,4 +1,4 @@
-#Automation Final Project
+#Automation Assignment
 
 *[Visit Website](https://www.redbus.in/)*
 
@@ -109,7 +109,21 @@ _-pom.xml file :_ contains the dependencies required for code to run
 1. Go to the file testng.xml
 
 2. Right click > run as TestNG Suite
+---
 
+#### Integration with Github and Jenkins
+**Github Repository link :** *[Visit Github Repository](https://github.com/Kanishk4617/RedBus_Automation.git)*
+or **github link**:- https://github.com/Kanishk4617/RedBus_Automation.git
+
+** For Jenkins : ** Refer documentation in ./JenkinsScreenshots/JenkinsScreenshots.docx
+
+---
+
+#### steps to run in docker
+1. Open project directory in cmd.
+2. Run following command: "docker-compose -f docker-compose.yml up -d"
+3. Change configuration in config.properties.
+4. To run test cases in parallel, add the following in testNG : **<suite thread-count="5" name="Suite" parallel="classes">**
 
 
 

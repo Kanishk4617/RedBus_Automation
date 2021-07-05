@@ -1,35 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
-  <test name="Test(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
-      <class name="tests.RPoolFunctionalityTest">
+      <class name="tests.BusHirePageTest">
         <methods>
           <include name="attachScreenshots"/>
+          <include name="whenUserDoesNotEnterToLocationForOutstation"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
+          <include name="whenUserDoesNotEnterFromLocationForOutstation"/>
           <include name="endReport"/>
-          <include name="whenUserClicksOn_FAQ"/>
-          <include name="whenUserClicksOn_Rpool_for_rwa"/>
-          <include name="whenUserClicksOn_What_is_rPool"/>
-          <include name="setExtent"/>
-          <include name="setUp"/>
-          <include name="whenUserClicksOnCorporatePlus"/>
-          <include name="whenUserClicksOnCustomerReview"/>
-        </methods>
-      </class> <!-- tests.RPoolFunctionalityTest -->
-      <class name="tests.SocialMediaHandleTest">
-        <methods>
-          <include name="attachScreenshots"/>
-          <include name="initializeBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="userClicksFacebookIcon"/>
-          <include name="endReport"/>
-          <include name="userClicksTwitterIcon"/>
+          <include name="whenUserClickedOnLocalMenu"/>
+          <include name="whenUserEntersValidInformationForOutstation"/>
+          <include name="whenUserClickedOnAirportMenu"/>
           <include name="setExtent"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- tests.SocialMediaHandleTest -->
+      </class> <!-- tests.BusHirePageTest -->
+      <class name="tests.HomepageTest">
+        <methods>
+          <include name="attachScreenshots"/>
+          <include name="whenUserClicksOnBusHireLink"/>
+          <include name="whenUserClicksOnBusTicketsLink"/>
+          <include name="whenUserClicksOnHelp"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="endReport"/>
+          <include name="whenUserClicksOnrpoolLink"/>
+          <include name="whenUserClicksOnRedBusLogoLink"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.HomepageTest -->
+      <class name="tests.SearchBusTest">
+        <methods>
+          <include name="InvalidSourceInvalidDestination"/>
+          <include name="validSourceValidDestination"/>
+          <include name="attachScreenshots"/>
+          <include name="validSourceInvalidDestination"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="InvalidSourceValidDestination"/>
+          <include name="endReport"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.SearchBusTest -->
+      <class name="tests.AboutRedBusTest">
+        <methods>
+          <include name="attachScreenshots"/>
+          <include name="whenUserClicksOnSitemap"/>
+          <include name="whenUserClicksOnredbusMobile"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="whenUserClicksOnOffers"/>
+          <include name="endReport"/>
+          <include name="whenUserClicksOnContactUs"/>
+          <include name="whenUserClicksOnAboutUs"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.AboutRedBusTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

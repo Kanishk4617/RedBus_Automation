@@ -38,7 +38,7 @@ public class BrowserUtils extends BaseTest {
 			firefoxOptions = new FirefoxOptions();
 			firefoxOptions.addArguments("headless");
 			firefoxOptions.addArguments("window-size=1920,1080");
-			URL url = new URL("http://localhost:4450/wd/hub");
+			URL url = new URL("http://localhost:4444/wd/hub");
 			remotedriver = new RemoteWebDriver(url,firefoxOptions);
 		}
 		else if(browser.equals("ie")) {
@@ -71,7 +71,7 @@ public class BrowserUtils extends BaseTest {
 //			options.addArguments("--allow-insecure-localhost");
 			options.addArguments("window-size=1920,1080");
 //			options.addArguments("user-agent=Chrome/91.0.4472.124");
-			URL url = new URL("http://localhost:4450/wd/hub");
+			URL url = new URL("http://localhost:4444/wd/hub");
 			remotedriver = new RemoteWebDriver(url,options);
 			remotedriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
@@ -89,7 +89,7 @@ public class BrowserUtils extends BaseTest {
 			driver = new ChromeDriver(chromeOptions);
 		}
 		else if(browser.equals("firefox")) {
-			System.setProperty(prop.getProperty("firefox_driver"), prop.getProperty("firefox_path"));
+			System.setProperty("webdriver.gecko.driver", prop.getProperty("firefox_path"));
 			FirefoxBinary firefoxBinary = new FirefoxBinary();
 			firefoxBinary.addCommandLineOptions("-headless");
 			FirefoxOptions options = new FirefoxOptions();
