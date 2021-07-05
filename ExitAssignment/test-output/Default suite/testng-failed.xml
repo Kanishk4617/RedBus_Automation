@@ -3,17 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.RPoolFunctionalityTest">
+      <class name="tests.HomepageTest">
         <methods>
           <include name="attachScreenshots"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
           <include name="endReport"/>
+          <include name="whenUserClicksOnrpoolLink"/>
           <include name="setExtent"/>
           <include name="setUp"/>
-          <include name="whenUserClicksOnCustomerReview"/>
         </methods>
-      </class> <!-- tests.RPoolFunctionalityTest -->
+      </class> <!-- tests.HomepageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

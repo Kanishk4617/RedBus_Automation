@@ -3,13 +3,13 @@
 <suite thread-count="5" name="Suite">
 	<test thread-count="15" name="Test">
 		<classes>
-			<class name="tests.SocialMediaHandleTest" />
-			<class name="tests.RPoolFunctionalityTest" />
-			<class name="tests.HelpPageTest" />
 			<class name="tests.SearchBusTest" />
 			<class name="tests.BusHirePageTest" />
 			<class name="tests.AboutRedBusTest" />
 			<class name="tests.HomepageTest" />
+			<class name="tests.SocialMediaHandleTest" />
+			<class name="tests.RPoolFunctionalityTest" />
+			<class name="tests.HelpPageTest" />
 
 		</classes>
 	</test>
