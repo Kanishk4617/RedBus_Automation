@@ -9,8 +9,12 @@
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
           <include name="endReport"/>
+          <include name="whenUserClicksOn_FAQ"/>
+          <include name="whenUserClicksOn_Rpool_for_rwa"/>
+          <include name="whenUserClicksOn_What_is_rPool"/>
           <include name="setExtent"/>
           <include name="setUp"/>
+          <include name="whenUserClicksOnCorporatePlus"/>
           <include name="whenUserClicksOnCustomerReview"/>
         </methods>
       </class> <!-- tests.RPoolFunctionalityTest -->
@@ -21,6 +25,7 @@
           <include name="closeBrowser"/>
           <include name="userClicksFacebookIcon"/>
           <include name="endReport"/>
+          <include name="userClicksTwitterIcon"/>
           <include name="setExtent"/>
           <include name="setUp"/>
         </methods>

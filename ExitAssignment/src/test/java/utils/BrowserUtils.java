@@ -30,7 +30,7 @@ public class BrowserUtils extends BaseTest {
 			options.addArguments("--allow-insecure-localhost");
 			options.addArguments("window-size=1920,1080");
 			options.addArguments("user-agent=Chrome/91.0.4472.124");
-			URL url = new URL("http://localhost:4449/wd/hub");
+			URL url = new URL("http://localhost:4444/wd/hub");
 			remotedriver = new RemoteWebDriver(url,options);
 			remotedriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
@@ -58,7 +58,7 @@ public class BrowserUtils extends BaseTest {
 		options.addArguments("--allow-insecure-localhost");
 		options.addArguments("window-size=1920,1080");
 		options.addArguments("user-agent=Chrome/91.0.4472.124");
-		URL url = new URL("http://localhost:4449/wd/hub");
+		URL url = new URL("http://localhost:4444/wd/hub");
 		remotedriver = new RemoteWebDriver(url,options);
 		remotedriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
@@ -81,7 +81,7 @@ public class BrowserUtils extends BaseTest {
 		InternetExplorerOptions ieOptions = null;
 		ChromeOptions chromeOptions = null;
 		if(browser.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",prop.getProperty("path_chrome"));
 			chromeOptions = new ChromeOptions();
 			chromeOptions.addArguments("headless");
 			chromeOptions.addArguments("window-size=1920,1080");
@@ -98,7 +98,7 @@ public class BrowserUtils extends BaseTest {
 		}
 		else if(browser.equals("ie"))
 		{
-			System.setProperty("webdriver.ie.driver","drivers/IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", prop.getProperty("ie_path"));
 			ieOptions = new InternetExplorerOptions();
 			
 			logger.info("IE doesn't support headless mode .... starting normal");
@@ -111,14 +111,14 @@ public class BrowserUtils extends BaseTest {
 	public static WebDriver openBrowserInNonHeadlessInLocal(String browserName) {
 		if(browserName.equals("chrome")) {
 
-		System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",prop.getProperty("path_chrome"));
 		driver = new ChromeDriver();
 		logger.info("Chrome driver initiated in head mode");
 	}
 	
 	else if(browserName.equals("firefox")) {
 		
-		System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver",prop.getProperty("firefox_path"));
 		driver = new FirefoxDriver();
 		logger.info("Firefox driver initiated in head mode");
 		
@@ -126,7 +126,7 @@ public class BrowserUtils extends BaseTest {
 	
 	else if(browserName.equals("ie")) {
 		
-		System.setProperty("webdriver.ie.driver","drivers/IEDriverServer.exe");
+		System.setProperty("webdriver.ie.driver",prop.getProperty("ie_path"));
 		driver = new InternetExplorerDriver();
 		logger.info("IE driver initiated in head mode");
 	}

@@ -12,7 +12,7 @@ import utils.CommonUtils;
 
 public class HomepageTest extends BaseTest {
 	// sheet name which is used by all tests
-	private String sheetName = "HomePageFunctionality";
+	private String sheetName = prop.getProperty("HomePageTests");
 	@Test
 	public void whenUserClicksOnrpoolLink() throws Throwable {
 		// testcase name

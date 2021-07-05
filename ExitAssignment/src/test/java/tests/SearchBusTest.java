@@ -13,7 +13,7 @@ import utils.CommonUtils;
 
 public class SearchBusTest extends BaseTest {
 	// sheet name which is used by all tests
-	private String sheetName = "SearchBusTest";
+	private String sheetName = prop.getProperty("SearchBusTests");
 
 	@Test
 	public void validSourceValidDestination() throws Throwable {

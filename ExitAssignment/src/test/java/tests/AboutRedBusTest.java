@@ -12,7 +12,7 @@ import utils.CommonUtils;
 
 public class AboutRedBusTest extends BaseTest {
 	// sheet name which is used by all tests
-	private String sheetName = "AboutusPageTest";
+	private String sheetName = prop.getProperty("AboutRedBus");
 
 	@Test
 	public void whenUserClicksOnAboutUs() throws Throwable {

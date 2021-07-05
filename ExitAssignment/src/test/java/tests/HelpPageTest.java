@@ -12,7 +12,7 @@ import utils.CommonUtils;
 
 public class HelpPageTest extends BaseTest {
 	// sheet name which is used by all tests
-	private String sheetName = "HelpPageTest";
+	private String sheetName = prop.getProperty("HelpPageSheet");
 	@Test
 	public void WhenuserClicks_New_Bus_booking_help() throws Throwable {
 		// testcase name

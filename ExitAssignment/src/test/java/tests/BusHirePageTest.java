@@ -17,7 +17,7 @@ import utils.CommonUtils;
 
 public class BusHirePageTest extends BaseTest{
 
-	private String sheetName = "BusHirePageTestData";
+	private String sheetName = prop.getProperty("BusHireSheet");
 
 	@Test()
 	public void whenUserEntersValidInformationForOutstation() throws InterruptedException {
